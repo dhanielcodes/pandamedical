@@ -1,0 +1,51 @@
+.PageNotFound {
+  padding: 1em;
+
+  &-text-back {
+    margin-top: 1.5em;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    justify-items: start;
+  }
+
+  &-text {
+    white-space: nowrap;
+    color: $secondary-text;
+    font-size: 1.1em;
+    font-weight: $bold;
+  }
+
+  &-back {
+    cursor: pointer;
+  }
+
+  &-image {
+    margin-top: 3em;
+  }
+
+  &-oops {
+    color: $secondary-text;
+    font-weight: $bold;
+    font-size: 1.5em;
+    margin-top: 1.5em;
+  }
+
+  &-info {
+    color: $secondary-text;
+    font-weight: $semi-bold;
+    font-size: 0.9em;
+    margin-top: 0.5em;
+  }
+
+  &-goback {
+    color: #707070;
+    font-weight: $semi-bold;
+    font-size: 0.7em;
+    margin-top: 0.5em;
+  }
+
+  &-back-link {
+    color: #56c596;
+    text-decoration: underline;
+  }
+}

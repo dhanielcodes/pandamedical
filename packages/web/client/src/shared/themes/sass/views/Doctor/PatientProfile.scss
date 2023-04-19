@@ -1,0 +1,155 @@
+.PatientProfile {
+  font-family: 'Poppins', sans-serif;
+  color: #313450;
+
+  .BookAppointment-header {
+    padding-right: 1em;
+    padding-left: 1em;
+    padding-bottom: 8em;
+    position: relative;
+  }
+
+  &-profile-header,
+  &-info {
+    background-color: #fff;
+    border-radius: 15px;
+    padding: 1em;
+    position: relative;
+  }
+
+  &-profile-header {
+    box-shadow: 0 9px 38px rgba(0, 0, 0, 0.16);
+  }
+
+  &-status-insurance {
+    display: flex;
+    justify-content: space-between;
+  }
+
+  &-insurance {
+    font-size: 0.8em;
+    color: #56c596;
+  }
+
+  &-basic-details {
+    position: relative;
+  }
+
+  &-avatar-container {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 1.25em;
+  }
+
+  &-avatar {
+    border-radius: 50%;
+    max-height: 5.5em;
+    max-width: 5.5em;
+    overflow: hidden;
+    border: 5px solid #fff;
+    margin-top: 0.5em;
+    position: absolute;
+    top: -5em;
+    img {
+      height: 100%;
+      width: 100%;
+      object-fit: cover;
+    }
+  }
+
+  &-name {
+    text-transform: capitalize;
+    color: #313450;
+    font-weight: $semi-bold;
+    font-size: 0.95em;
+  }
+
+  &-gender,
+  &-dob,
+  &-address {
+    text-transform: capitalize;
+    color: #898a8f;
+    font-weight: 400;
+    font-size: 0.78em;
+    line-height: 1.65;
+  }
+
+  &-address {
+    display: flex;
+    justify-content: center;
+  }
+
+  &-location-pin {
+    width: 1em;
+    margin-right: 0.5em;
+  }
+
+  &-body {
+    width: 93%;
+    margin: auto;
+    position: relative;
+    top: -7em;
+  }
+
+  &-result-heading {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 1.5em;
+    font-weight: $bold;
+  }
+
+  &-result-latest {
+    font-size: 0.85em;
+    color: $secondary-text;
+  }
+
+  &-result-view-all {
+    font-size: 0.9em;
+    color: #707070;
+    cursor: pointer;
+  }
+
+  &-latest-results {
+    display: flex;
+    overflow-x: scroll;
+  }
+
+  &-result-card {
+    box-shadow: 7px 7px 28px rgba(219, 219, 219, 0.5);
+
+    .ResultCard-title {
+      font-size: 0.7em;
+    }
+  }
+
+  &-buttons {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+  }
+
+  &-btn {
+    padding: 0.8em 0em;
+    width: 45%;
+  }
+
+  &-second-btn {
+    background-color: #f3f8f3;
+    color: #56c596;
+    border: 1px solid #56c596;
+    padding: 0.7em 0em;
+  }
+
+  &-menu {
+    box-shadow: 0 6px 18px rgba(0, 0, 0, 0.09);
+    padding: 1em;
+    margin-top: 2em;
+    border-radius: 20px;
+    background-color: #f3f8f3;
+    min-height: 30em;
+  }
+
+  .menu-item-border-bottom {
+    border-bottom: 1px solid #ececec;
+  }
+}

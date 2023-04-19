@@ -1,0 +1,106 @@
+.Login {
+  color: $primary-text;
+  font-family: $base-font;
+  padding: 10px;
+  min-height: 100vh;
+  background-image: url('../../../assets/images/login_background.png');
+  background-size: cover;
+  background-repeat: no-repeat;
+  &-content {
+    margin: 3rem auto;
+  }
+  p,
+  h3 {
+    margin: 1em 0;
+  }
+  h3 {
+    color: $secondary-text;
+  }
+  p {
+    font-size: 0.9rem;
+    font-weight: $medium;
+  }
+  #description {
+    margin: 2em auto 3em;
+  }
+  form {
+    width: 80%;
+    margin: auto;
+  }
+
+  &-input-field {
+    input {
+      &::placeholder {
+        color: $secondary-text;
+        font-size: inherit;
+        font-weight: $medium;
+        opacity: 0.3;
+      }
+    }
+  }
+
+  &-icon {
+    color: #56c596;
+  }
+
+  .fa-check-circle {
+    top: 33%;
+  }
+
+  .fa-times-circle {
+    top: 25%;
+    color: #f75010;
+  }
+
+  .fa-exclamation-triangle {
+    color: #ffcf5c;
+    top: 22%;
+  }
+
+  .more-options {
+    margin: 1.7em;
+  }
+
+  .or {
+    font-size: 0.8em;
+  }
+
+  .signup-text {
+    font-size: 0.76em;
+    margin: 5px 0;
+
+    a {
+      text-decoration: none;
+      color: $secondary-text;
+    }
+  }
+
+  .btn-login {
+    width: 90%;
+  }
+
+  .social-btns {
+    button {
+      margin-bottom: 0.5em;
+    }
+  }
+
+  .SocialBtn-facebook {
+    background-color: #447bfd;
+    color: #fff;
+  }
+
+  .fa-facebook {
+    color: #fff;
+    font-size: 1.8em;
+  }
+
+  .SocialBtn-google {
+    background-color: #fff;
+  }
+
+  .google-icon {
+    width: 1.5em;
+    height: 1.5em;
+  }
+}

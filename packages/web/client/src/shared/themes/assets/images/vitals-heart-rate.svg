@@ -1,0 +1,8 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="46.61" height="41.923" viewBox="0 0 46.61 41.923">
+  <g id="Icons_heart" data-name="Icons/ heart" transform="translate(1.416 0.978)">
+    <g id="Icons_heart-2" data-name="Icons/ heart" transform="translate(0.084 0.522)">
+      <path id="Path" d="M40.19,3.427h0a10.984,10.984,0,0,0-15.942,0L22.067,5.8a.757.757,0,0,1-.839,0L19.046,3.427a10.79,10.79,0,0,0-15.774,0h0a12.143,12.143,0,0,0,0,16.585l2.685,2.708L21.4,38.8a.757.757,0,0,0,.839,0L37.673,22.719l2.685-2.708A11.977,11.977,0,0,0,40.19,3.427Z" fill="none" stroke="#e7b7c8" stroke-linecap="round" stroke-linejoin="round" stroke-miterlimit="10" stroke-width="3"/>
+      <path id="Path-2" data-name="Path" d="M0,5.077H5.034L8.39,1.692l3.356,6.769L15.1,0l3.356,5.077h5.034" transform="translate(9.985 11.888)" fill="none" stroke="#e7b7c8" stroke-linecap="round" stroke-linejoin="round" stroke-miterlimit="10" stroke-width="3"/>
+    </g>
+  </g>
+</svg>

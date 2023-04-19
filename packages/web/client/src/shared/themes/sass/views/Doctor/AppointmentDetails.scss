@@ -1,0 +1,83 @@
+.AppointmentDetails {
+  &-body {
+    min-height: 30em;
+    padding-bottom: 10em;
+  }
+
+  .PatientProfile-body {
+    top: -4.5em;
+  }
+
+  &-details {
+    margin-top: 3.5em;
+    text-align: left;
+  }
+
+  &-topic {
+    color: #1d7c64;
+    font-size: 1.1em;
+    font-weight: $bold;
+  }
+
+  &-date {
+    margin-top: 1em;
+    color: #707070;
+    font-size: 0.8em;
+  }
+
+  &-note {
+    margin-top: 1em;
+    font-size: 0.9em;
+    color: #707070;
+  }
+
+  &-buttons {
+    margin-top: 2em;
+  }
+
+  &-btn {
+    padding: 15px 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 1.5em;
+    font-weight: $medium;
+  }
+
+  .btn-image {
+    margin-left: 0.75em;
+    width: 0.95em;
+    height: 0.95em;
+  }
+
+  &-reschedule-reject {
+    display: flex;
+    justify-content: space-around;
+
+    button {
+      width: 48%;
+      font-size: 1em;
+    }
+  }
+
+  &-btn-reschedule {
+    color: #56c596;
+    background-color: #e2f6df;
+    font-weight: $bold;
+  }
+
+  &-btn-reject {
+    background-color: #fe7373;
+    font-weight: $medium;
+  }
+
+  &-online {
+    color: #27ae60;
+    font-weight: $semi-bold;
+  }
+
+  &-offline {
+    color: #fe7373;
+    font-weight: $semi-bold;
+  }
+}

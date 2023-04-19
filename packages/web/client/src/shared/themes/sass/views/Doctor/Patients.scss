@@ -1,0 +1,12 @@
+.Patients {
+  &-header-text-back {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    justify-items: start;
+  }
+
+  &-heading {
+    font-weight: $bold;
+    white-space: nowrap;
+  }
+}

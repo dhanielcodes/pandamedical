@@ -1,0 +1,50 @@
+%btn {
+  text-transform: uppercase;
+  font-weight: 700;
+  border-radius: 25px;
+  box-shadow: 20px 20px 53px #329d9c36;
+  border: none;
+  outline: none;
+  cursor: pointer;
+}
+
+.btn-primary {
+  @extend %btn;
+  padding: 18px 0;
+  width: 85%;
+  margin-top: 0.9em;
+  border-radius: 20px;
+  color: #fff;
+  background: #329d9c;
+  background: -webkit-linear-gradient(to bottom right, #7be495, #329d9c);
+  background: linear-gradient(to bottom right, #7be495, #329d9c);
+
+  &:disabled {
+    background: lighten(#7be495, 10);
+    cursor: not-allowed;
+  }
+}
+
+.btn-secondary {
+  @extend %btn;
+  padding: 18px 0;
+  width: 85%;
+  margin-top: 0.9em;
+  border-radius: 20px;
+  border: 1px solid #56c596;
+  color: #56c596;
+  background-color: transparent;
+}
+
+.btn-classic {
+  @extend %btn;
+  text-transform: capitalize;
+  font-size: 0.9em;
+  padding: 18px 0;
+  width: 100%;
+  margin-top: 0.9em;
+  border-radius: 50px;
+  color: #fff;
+  background: #56c596;
+  box-shadow: none;
+}

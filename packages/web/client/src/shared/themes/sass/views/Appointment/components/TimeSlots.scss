@@ -1,0 +1,70 @@
+.TimeSlots {
+  position: relative;
+  background-color: #fbfbfb;
+  border: 1px solid #d6d6d6;
+  border-radius: 10px;
+  margin-top: 2em;
+  padding: 1em 0.5em;
+
+  &-time-of-day {
+    position: absolute;
+    top: -1em;
+    text-transform: capitalize;
+    font-size: 0.8em;
+    padding: 0.2em 1em;
+    border-radius: 50px;
+  }
+
+  &-morning {
+    background: #ff9fff;
+    background: -webkit-linear-gradient(to bottom right, #fffb91, #ff9fff);
+    background: linear-gradient(to bottom right, #fffb91, #ff9fff);
+  }
+
+  &-afternoon {
+    background: #c1fff1;
+    background: -webkit-linear-gradient(to bottom right, #e0ccff, #c1fff1);
+    background: linear-gradient(to bottom right, #e0ccff, #c1fff1);
+  }
+
+  &-evening-night {
+    background: #9ffff5;
+    background: -webkit-linear-gradient(to bottom right, #90e4ff, #9ffff5);
+    background: linear-gradient(to bottom right, #90e4ff, #9ffff5);
+  }
+
+  &-slots {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+  }
+
+  &-slot {
+    padding: 0.5em;
+    font-size: 0.9em;
+    white-space: nowrap;
+    color: #313450;
+  }
+
+  &-empty {
+    display: flex;
+    justify-content: center;
+  }
+
+  &-empty-text {
+    font-size: 0.8em;
+  }
+
+  &-selected {
+    background-color: #56c596;
+    color: #fff;
+    border-radius: 50px;
+  }
+}
+
+@media (max-width: 400px) {
+  .TimeSlots {
+    &-slots {
+      grid-template-columns: 1fr 1fr 1fr;
+    }
+  }
+}

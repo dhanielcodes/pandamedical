@@ -1,0 +1,56 @@
+.TestResultCard {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  box-shadow: 7px 7px 28px #dbdbdb;
+  padding: 1.5em 1em 0.5em;
+  border-radius: 15px;
+  margin: 0.5em;
+  margin-bottom: 1.5em;
+  cursor: pointer;
+
+  &-info {
+    text-align: left;
+  }
+
+  &-observer {
+    color: $secondary-text;
+    font-weight: $bold;
+    font-size: 1.15em;
+  }
+
+  &-test-name {
+    color: #707070;
+    font-weight: $bold;
+    font-size: 0.9em;
+    margin-bottom: 2em;
+  }
+
+  &-date {
+    color: #707070;
+    font-weight: $medium;
+    font-size: 0.68em;
+  }
+
+  &-value {
+    color: $secondary-text;
+    font-weight: $medium;
+    font-size: 2em;
+  }
+
+  &-unit {
+    color: #56c596;
+    font-weight: $bold;
+    font-size: 0.85em;
+  }
+
+  &-view-all {
+    color: #56c596;
+    font-weight: $bold;
+    border: 1px solid #56c596;
+    padding: 1.5em;
+    border-radius: 15px;
+    font-size: 0.75em;
+    white-space: nowrap;
+  }
+}

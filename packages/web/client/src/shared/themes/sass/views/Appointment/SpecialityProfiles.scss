@@ -1,0 +1,102 @@
+.SpecialityProfiles {
+  padding-bottom: 1em;
+  position: relative;
+  padding-bottom: 8em;
+
+  .BookAppointment-header {
+    padding-left: 1em;
+    padding-right: 1em;
+    padding-bottom: 0.5em;
+    margin-bottom: 1.5em;
+  }
+
+  &-header-text-back {
+    display: flex;
+  }
+
+  &-speciality {
+    font-weight: $bold;
+    text-transform: capitalize;
+  }
+
+  &-back {
+    margin-right: 0.8em;
+    cursor: pointer;
+  }
+
+  &-text-location-container {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    margin-bottom: 1.8em;
+  }
+
+  .location-container {
+    justify-self: flex-end;
+  }
+
+  .location {
+    color: #56c596;
+    font-size: 0.7em;
+  }
+
+  .location-caret {
+    width: 0.7em;
+    margin-left: 0.3em;
+  }
+
+  &-tags-container {
+    display: flex;
+    justify-content: space-around;
+    position: relative;
+    width: 100%;
+    bottom: -1em;
+  }
+
+  &-tag {
+    background-color: #fff;
+    font-family: 'Poppins', sans-serif;
+    font-weight: normal;
+    color: #313450;
+    font-size: 0.75em;
+    padding: 0.65em;
+    border-radius: 50px;
+  }
+
+  &-filter {
+    background-color: #fff;
+    position: fixed;
+    width: 4em;
+    border-radius: 50%;
+    padding: 1em;
+    bottom: 6em;
+    right: 1.2em;
+    box-shadow: 0 0 24px rgba(0, 0, 0, 0.16);
+    cursor: pointer;
+  }
+
+  &-filter-modal {
+    background: none;
+    box-shadow: none;
+    width: 95%;
+    margin-left: auto;
+    margin-right: auto;
+  }
+
+  &-empty {
+    margin-top: 3em;
+  }
+
+  &-empty-text {
+    color: $secondary-text;
+    font-weight: $bold;
+    font-size: 2em;
+    margin: 0.3em 0;
+  }
+
+  &-empty-info {
+    color: #707070;
+    font-weight: $bold;
+    font-size: 1.15em;
+    text-transform: capitalize;
+  }
+}

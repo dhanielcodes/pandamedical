@@ -1,0 +1,69 @@
+.Appointments {
+  .BookAppointment-header {
+    padding: 3em 1.5em 4.5em;
+    position: relative;
+  }
+
+  &-img {
+    margin-top: 0.8em;
+  }
+
+  &-body {
+    width: 93%;
+    margin: auto;
+    padding: 1.5em 1.3em;
+    padding-bottom: 5em;
+    border-radius: 20px;
+    box-shadow: 0 9px 38px rgba(0, 0, 0, 0.16);
+    background-color: #fff;
+    position: relative;
+    top: -4em;
+    min-height: 30em;
+  }
+
+  &-records {
+    margin-top: 2em;
+  }
+
+  &-empty {
+    margin-top: 2em;
+  }
+
+  &-empty-text {
+    color: $secondary-text;
+    font-weight: $bold;
+    font-size: 2em;
+    margin: 0.3em 0;
+  }
+
+  &-empty-info {
+    color: #707070;
+    font-weight: $bold;
+    font-size: 1.15em;
+    text-transform: capitalize;
+  }
+
+  &-status-filter {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    background-color: #f6f9f5;
+    color: $primary-text;
+    font-weight: $medium;
+    font-size: 0.75em;
+    margin-top: 1.5em;
+    border-radius: 50px;
+  }
+
+  &-status-filter-option {
+    padding-top: 0.55em;
+    padding-bottom: 0.55em;
+  }
+
+  .status-active {
+    background: #329d9c;
+    background: -webkit-linear-gradient(to bottom right, #7be495, #329d9c);
+    background: linear-gradient(to bottom right, #7be495, #329d9c);
+    color: #fff;
+    border-radius: 50px;
+  }
+}

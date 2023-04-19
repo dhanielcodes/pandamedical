@@ -1,0 +1,202 @@
+.Dashboard {
+  min-height: 100vh;
+  background-color: #e0ecde;
+  color: $secondary-text;
+  font-family: $base-font;
+  position: relative;
+
+  &-header {
+    padding: 8%;
+    padding-bottom: 0;
+    text-align: left;
+  }
+
+  &-top-section {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+
+  &-hamburger {
+    cursor: pointer;
+    padding: 1em 1em 1em 0;
+  }
+
+  .toggle-btn {
+    width: 1.25em;
+  }
+
+  &-avatar-group {
+    display: flex;
+    align-items: center;
+  }
+
+  &-avatar {
+    border-radius: 50%;
+    height: 50px;
+    width: 50px;
+    overflow: hidden;
+    border: 3.1px solid #fff;
+    margin-left: 10px;
+    position: relative;
+    img {
+      height: 100%;
+      width: 100%;
+    }
+  }
+
+  .online-status {
+    height: 15px;
+    width: 15px;
+    border: 2px solid #fff;
+    position: absolute;
+    right: 0;
+    margin-top: 2em;
+    margin-right: 8%;
+  }
+
+  #avi {
+    position: relative;
+  }
+
+  #family-member-avi {
+    height: 37px;
+    width: 37px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    img {
+      width: 80%;
+      height: 80%;
+    }
+  }
+
+  &-hello {
+    text-transform: capitalize;
+    font-size: 1.4em;
+  }
+
+  &-greetings {
+    margin: 8%;
+    margin-right: 0.8em;
+
+    p {
+      color: $primary-text;
+      font-size: 0.85em;
+      font-weight: $medium;
+      margin: 5% 0;
+      line-height: 1.35;
+    }
+  }
+
+  &-result-heading {
+    display: flex;
+    justify-content: space-between;
+    margin-left: 8%;
+    margin-right: 5%;
+    font-size: 0.9em;
+
+    #view-all {
+      color: #707070;
+      cursor: pointer;
+    }
+  }
+
+  &-latest-results {
+    display: flex;
+    overflow-x: scroll;
+    margin-left: 8%;
+  }
+
+  &-vitals {
+    background-color: #fff;
+    border-radius: 55px 55px 0 0;
+    padding-bottom: 8em;
+  }
+
+  &-vitals-loader-container {
+    padding: 1em;
+    display: flex;
+    justify-content: flex-end;
+  }
+
+  .chart-title {
+    color: #000000;
+    font-size: 1.35em;
+    font-family: 'Nunito Sans', sans-serif;
+    font-weight: $medium;
+  }
+
+  &-chart {
+    display: inline-block;
+    margin-top: 3.5em;
+    padding: 0.9em;
+    padding-bottom: 1.5em;
+    width: 75%;
+    box-shadow: 7px 7px 28px #dbdbdb8c;
+    border-radius: 15px;
+  }
+
+  &-legend {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 1em;
+    font-size: 0.78em;
+    font-weight: 500;
+  }
+
+  .legend-text {
+    margin-left: 5px;
+  }
+
+  .vitals-card {
+    width: 75%;
+    font-size: 1.2em;
+    line-height: 1.4;
+    padding: 8%;
+    margin: 0.5em 0;
+    box-shadow: 7px 7px 28px #dbdbdb8c;
+
+    .ResultCard-content {
+      white-space: initial;
+      align-items: center;
+    }
+
+    .ResultCard-icon {
+      height: 2.5em;
+      width: 2.5em;
+    }
+
+    .ResultCard-title {
+      font-size: 0.75em;
+    }
+  }
+
+  &-modal {
+    border-radius: 20px;
+    min-width: 88%;
+    color: #68b2a0;
+    background-color: #f3f8f3;
+    padding: 3em 2em;
+  }
+
+  &-menu-heading {
+    color: #205072;
+    text-align: center;
+    margin-bottom: 0.5em;
+  }
+
+  &-menu-item {
+    font-weight: $bold;
+    border-bottom: 1px solid rgba(169, 169, 169, 0.5);
+    padding: 0.8em;
+    display: flex;
+    align-items: center;
+  }
+
+  &-menu-img {
+    margin-right: 0.8em;
+  }
+}

@@ -1,0 +1,15 @@
+.Fingerprint {
+  color: #56c596;
+  font-family: $base-font;
+  padding: 10px;
+
+  &-form {
+    margin: 5rem auto;
+  }
+
+  .fingerprint-shield {
+    height: 175px;
+    width: 147px;
+    margin: 20% 0;
+  }
+}

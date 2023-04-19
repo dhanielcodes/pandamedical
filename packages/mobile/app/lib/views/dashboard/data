@@ -1,0 +1,31 @@
+class A {
+  String aa;
+  String bb;
+  static String ss;
+  String simple() {
+    return 'simple';
+  }
+
+  getallMemberFields() {
+    // returun ["aa", "bb"]
+  }
+}
+
+void main() {
+  InstanceMirror instance_mirror = reflect(new A());
+  var class_mirror = instance_mirror.type;
+
+  for (var v in class_mirror.declarations.values) {
+    var name = MirrorSystem.getName(v.simpleName);
+
+    if (v is VariableMirror) {
+      print('Variable: $name');
+      print(
+          'Static: ${v.isStatic}, Private: ${v.isPrivate}, Final: ${v.isFinal}, Const: ${v.isConst}');
+    } else if (v is MethodMirror) {
+      print('Method: $name');
+      print(
+          'Static: ${v.isStatic}, Private: ${v.isPrivate}, Abstract: ${v.isAbstract}');
+    }
+  }
+}

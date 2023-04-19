@@ -1,0 +1,80 @@
+.PatientCard {
+  background-color: #fff;
+  padding: 1em 0.5em;
+  width: 90%;
+  margin: auto;
+  margin-bottom: 1em;
+  border-radius: 15px;
+  border: 1px solid #ececec;
+  font-family: 'Poppins', sans-serif;
+
+  &-content {
+    display: flex;
+    justify-content: space-between;
+  }
+
+  &-avatar-info {
+    display: flex;
+    text-align: left;
+  }
+
+  &-avatar {
+    border-radius: 50%;
+    height: 4.8em;
+    width: 4.8em;
+    overflow: hidden;
+    margin-bottom: 1em;
+    margin-right: 1em;
+    position: relative;
+    img {
+      height: 100%;
+      width: 100%;
+    }
+  }
+
+  &-name {
+    font-weight: $medium;
+    color: #313450;
+  }
+
+  &-gender,
+  &-dob,
+  &-address {
+    color: #898a8f;
+    font-size: 0.8em;
+    line-height: 1.65;
+  }
+
+  &-address {
+    display: flex;
+  }
+
+  &-location-pin {
+    margin-right: 0.5em;
+    width: 1em;
+  }
+
+  &-insurance {
+    color: #56c596;
+    font-size: 0.8em;
+  }
+
+  &-buttons {
+    margin-top: 0.5em;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+  }
+
+  &-btn {
+    padding: 0.8em 0em;
+    width: 45%;
+  }
+
+  &-second-btn {
+    background-color: #f3f8f3;
+    color: #56c596;
+    border: 1px solid #56c596;
+    padding: 0.7em 0em;
+  }
+}

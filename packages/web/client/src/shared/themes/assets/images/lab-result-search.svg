@@ -1,0 +1,8 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="19.875" height="19.875" viewBox="0 0 19.875 19.875">
+  <g id="Atoms_Icons_Search_Active" data-name="Atoms/ Icons/ Search Active" transform="translate(1 1)">
+    <g id="Search" transform="translate(0 0)">
+      <circle id="Oval" cx="6.413" cy="6.413" r="6.413" fill="none" stroke="#56c596" stroke-linecap="round" stroke-linejoin="round" stroke-miterlimit="10" stroke-width="2"/>
+      <path id="Path" d="M0,2.85,4.988,7.838a2.021,2.021,0,0,0,2.85,0h0a2.021,2.021,0,0,0,0-2.85L2.85,0" transform="translate(9.263 9.263)" fill="none" stroke="#56c596" stroke-linecap="round" stroke-linejoin="round" stroke-miterlimit="10" stroke-width="2"/>
+    </g>
+  </g>
+</svg>

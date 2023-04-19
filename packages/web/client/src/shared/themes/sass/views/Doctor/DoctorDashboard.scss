@@ -1,0 +1,156 @@
+.DoctorDashboard {
+  background-color: #f3f8f3;
+
+  &-notification-bell {
+    filter: brightness(0) saturate(100%) invert(47%) sepia(29%) saturate(623%)
+      hue-rotate(103deg) brightness(91%) contrast(96%);
+    width: 1.6em;
+    height: 1.6em;
+  }
+
+  &-notification-bell-container {
+    position: relative;
+  }
+
+  &-notification-indicator {
+    border: 2px solid #3b8767;
+    width: 14px;
+    height: 14px;
+    color: #3b8767;
+    font-weight: $bold;
+    position: absolute;
+    top: 0;
+    right: 0;
+  }
+
+  &-options {
+    display: flex;
+    width: 90%;
+    margin: auto;
+    margin-top: 2.5em;
+    margin-bottom: 1em;
+    overflow-x: scroll;
+  }
+
+  &-activity-container {
+    display: inline-block;
+    margin-top: 3.5em;
+    padding: 1.5em 1em;
+    width: 85%;
+    box-shadow: 7px 7px 28px #dbdbdb8c;
+    border-radius: 15px;
+  }
+
+  &-activity-heading {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-bottom: 1em;
+  }
+
+  &-activity-title {
+    color: #000;
+    font-weight: $bold;
+    font-size: 1.15em;
+  }
+
+  &-activity-day-caret {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
+  &-activity-day {
+    color: #3b8767;
+    font-weight: $bold;
+    text-transform: capitalize;
+  }
+
+  &-activity-caret {
+    width: 0.8em;
+    height: 0.8em;
+    margin-top: 0.4em;
+    margin-left: 0.3em;
+  }
+
+  &-info-card {
+    display: inline-block;
+    background-color: #fff;
+    color: #000;
+    border-radius: 15px;
+    cursor: pointer;
+
+    width: 80%;
+    font-size: 1.2em;
+    line-height: 1.4;
+    padding: 8%;
+    margin: 1em 0;
+    box-shadow: 7px 7px 28px #dbdbdb8c;
+    line-height: 1.5;
+  }
+
+  &-info-card-content {
+    display: flex;
+    font-weight: $bold;
+    text-align: left;
+  }
+
+  &-info-card-icon {
+    margin-right: 20px;
+  }
+
+  .income-caret-container {
+    display: flex;
+    align-items: center;
+  }
+
+  .income-caret {
+    margin-left: 0.3em;
+  }
+
+  &-info-card-income-detail {
+    color: #3b8767;
+    font-size: 0.9em;
+  }
+
+  &-info-card-qr-detail {
+    color: #707070;
+    font-size: 0.7em;
+  }
+
+  &-no-appointments {
+    font-size: 0.9em;
+    padding: 1em;
+  }
+
+  &-view-all-container {
+    display: flex;
+    justify-content: center;
+    padding-top: 1em;
+  }
+
+  &-view-all {
+    border: 1px solid #56c596;
+    color: #56c596;
+    padding: 0.5em 2.5em;
+    border-radius: 50px;
+  }
+
+  &-filter {
+    background-color: #fff;
+    box-shadow: 34px 34px 89px rgba(50, 157, 156, 0.23);
+    padding: 1.5em 2em;
+    padding-top: 0em;
+    border-radius: 30px;
+    position: absolute;
+    right: 2.5em;
+  }
+
+  &-filter-option {
+    font-weight: $bold;
+    font-size: 0.85em;
+    border-bottom: 1px solid #ececec;
+    padding: 1.5em;
+    padding-bottom: 0.5em;
+  }
+}

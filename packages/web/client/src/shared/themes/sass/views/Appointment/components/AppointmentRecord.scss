@@ -1,0 +1,71 @@
+.AppointmentRecord {
+  display: flex;
+  justify-content: space-between;
+  font-size: 0.8em;
+  color: #898a8f;
+  padding: 1.5em 0em 1em;
+  border-bottom: 1px solid #ececec;
+
+  &-avatar {
+    border-radius: 50%;
+    max-width: 50px;
+    max-height: 50px;
+    overflow: hidden;
+    border: 2px solid #56c596;
+    position: relative;
+    margin-left: 0.5em;
+    margin-right: 1.3em;
+    img {
+      height: 100%;
+      width: 100%;
+    }
+  }
+
+  &-image-details {
+    display: flex;
+    align-items: center;
+    margin-right: 0.8em;
+  }
+
+  &-details {
+    text-align: left;
+    line-height: 1.75;
+  }
+
+  &-name {
+    color: $secondary-text;
+    font-weight: $semi-bold;
+    text-transform: capitalize;
+  }
+
+  &-title {
+    color: $secondary-text;
+    font-size: 0.85em;
+  }
+
+  &-date {
+    font-size: 0.8em;
+  }
+
+  &-caret-status {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: flex-end;
+  }
+
+  &-caret {
+    width: 0.7em;
+    height: 0.7em;
+    margin-top: 1.5em;
+  }
+
+  &-status {
+    text-transform: capitalize;
+    margin-right: 1em;
+    align-self: flex-end;
+    color: $primary-text;
+    font-weight: $medium;
+    font-size: 0.8em;
+  }
+}

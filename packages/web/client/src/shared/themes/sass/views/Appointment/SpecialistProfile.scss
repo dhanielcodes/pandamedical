@@ -1,0 +1,358 @@
+.SpecialistProfile {
+  font-family: 'Poppins', sans-serif;
+  color: #313450;
+  padding-bottom: 1em;
+
+  .BookAppointment-header {
+    padding-right: 1em;
+    padding-left: 1em;
+    padding-bottom: 8em;
+    position: relative;
+  }
+
+  &-profile-header,
+  &-info {
+    background-color: #fff;
+    border-radius: 15px;
+    padding: 1em;
+    position: relative;
+  }
+
+  &-profile-header {
+    box-shadow: 0 9px 38px rgba(0, 0, 0, 0.16);
+  }
+
+  &-info {
+    margin-top: 0.7em;
+  }
+
+  &-body {
+    width: 93%;
+    margin: auto;
+    position: relative;
+    top: -7em;
+  }
+
+  &-status-rating {
+    display: flex;
+    justify-content: space-between;
+  }
+
+  &-online-status {
+    color: #27ae60;
+    font-weight: $semi-bold;
+  }
+
+  &-star {
+    margin-right: 0.5em;
+    width: 1em;
+  }
+
+  &-rating {
+    color: #707070;
+    font-weight: 400;
+  }
+
+  &-basic-details {
+    position: relative;
+  }
+
+  &-avatar-container {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 1.25em;
+  }
+
+  &-avatar {
+    border-radius: 50%;
+    max-height: 5.5em;
+    max-width: 5.5em;
+    overflow: hidden;
+    border: 5px solid #fff;
+    margin-top: 0.5em;
+    position: absolute;
+    top: -5.5em;
+    img {
+      height: 100%;
+      width: 100%;
+      object-fit: cover;
+    }
+  }
+
+  &-name {
+    color: #313450;
+    font-weight: $semi-bold;
+    font-size: 0.95em;
+    text-transform: capitalize;
+  }
+
+  &-qualifications {
+    color: #898a8f;
+    font-weight: 400;
+    font-size: 0.78em;
+    margin-top: 0.5em;
+  }
+
+  &-exp-votes {
+    display: flex;
+    justify-content: space-between;
+    font-weight: 400;
+    margin: 1em 0;
+
+    &-num {
+      color: #313450;
+      font-size: 0.8em;
+    }
+
+    &-text {
+      color: #898a8f;
+      font-size: 0.75em;
+    }
+  }
+
+  &-info-section {
+    padding: 1em 0.5em;
+    border-bottom: 1px solid #ececec;
+  }
+
+  &-info-section-heading {
+    text-transform: uppercase;
+    color: #898a8f;
+    font-size: 0.85em;
+    margin-bottom: 0.5em;
+  }
+
+  &-fee {
+    display: flex;
+    justify-content: space-between;
+  }
+
+  &-price {
+    color: #898a8f;
+    font-size: 0.85em;
+  }
+
+  &-price-num {
+    color: #313450;
+  }
+
+  &-book-btn {
+    border: 1px solid #56c596;
+    padding: 0.4em 2.5em;
+    border-radius: 15px;
+    font-size: 0.7em;
+    font-weight: $semi-bold;
+    color: #56c596;
+    cursor: pointer;
+  }
+
+  &-time-open {
+    display: flex;
+    justify-content: space-between;
+    font-size: 0.7em;
+  }
+
+  &-closed {
+    color: #ff4d4d;
+  }
+
+  &-all-timing {
+    color: #329d9c;
+    font-size: 0.85rem;
+    font-weight: $medium;
+    cursor: pointer;
+  }
+
+  &-feedback-section,
+  &-specialization-section,
+  &-services-section,
+  &-verification-section,
+  &-others-section {
+    text-align: left;
+    font-size: 0.8em;
+    line-height: 2;
+  }
+
+  &-others-section {
+    padding-top: 1em;
+  }
+
+  &-feedback-info {
+    color: #898a8f;
+    font-size: 0.9em;
+  }
+
+  &-info-section-all {
+    text-transform: uppercase;
+    color: #329d9c;
+    font-size: 0.85rem;
+    font-weight: $semi-bold;
+    margin-top: 0.5em;
+    cursor: pointer;
+  }
+
+  &-dot-indicator {
+    margin-right: 0.8em;
+  }
+
+  &-specialization-section,
+  &-services-section,
+  &-verification-section,
+  &-others-section {
+    line-height: initial;
+  }
+
+  &-list-item {
+    margin-bottom: 1em;
+  }
+
+  &-other-doc {
+    display: flex;
+    justify-content: space-between;
+  }
+
+  &-other-doc-details {
+    display: flex;
+  }
+
+  &-other-doc-info {
+    margin-top: 0.3em;
+    line-height: 1.7;
+  }
+
+  &-other-doc-name {
+    font-size: 0.9rem;
+  }
+
+  &-other-doc-practice {
+    color: #898a8f;
+  }
+
+  &-other-doc-avatar {
+    border-radius: 50%;
+    height: 4em;
+    width: 4em;
+    overflow: hidden;
+    border: 5px solid #fff;
+    margin-right: 0.5em;
+    img {
+      height: 100%;
+      width: 100%;
+      object-fit: cover;
+    }
+  }
+
+  &-other-doc-rating-view {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: flex-end;
+  }
+
+  &-other-doc-star {
+    margin-right: 0.5em;
+  }
+
+  &-other-doc-star-rating {
+    display: flex;
+    align-items: center;
+    padding-right: 0.5em;
+  }
+
+  &-other-doc-eye-icon {
+    width: 1.2em;
+    margin-right: 0.65em;
+  }
+
+  &-other-doc-view {
+    font-family: $base-font;
+    font-weight: $bold;
+    font-size: 0.9em;
+    color: #56c596;
+    padding: 0.4em 2em;
+    border: 1px solid #56c596;
+    border-radius: 15px;
+    cursor: pointer;
+  }
+
+  &-other-doc-book {
+    align-self: flex-end;
+    font-family: $base-font;
+    font-weight: $bold;
+    font-size: 0.8em;
+    color: #56c596;
+    padding: 0.75em 2.5em;
+    border: 1px solid rgba(86, 197, 150, 0.5);
+    border-radius: 15px;
+    cursor: pointer;
+  }
+
+  &-action {
+    display: grid;
+    grid-template-columns: 1fr 1.2fr;
+    align-items: center;
+    border: 1px solid #c7c7c7;
+    border-radius: 50px;
+    margin-top: 5em;
+    position: relative;
+    font-size: 0.8em;
+    overflow: hidden;
+    height: 3.5em;
+  }
+
+  &-give-feedback {
+    padding-left: 1em;
+  }
+
+  &-book {
+    background-color: #56c596;
+    border: 1px solid #56c596;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 50px;
+    position: relative;
+    font-weight: $bold;
+    color: #fff;
+  }
+}
+
+.book-link {
+  height: 100%;
+}
+
+.HospitalProfile {
+  &-header {
+    border-radius: 0;
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+  }
+
+  &-body {
+    top: -3.5em;
+  }
+
+  &-name-section {
+    text-align: left;
+  }
+
+  &-name {
+    font-weight: $semi-bold;
+  }
+
+  &-location {
+    color: #898a8f;
+    font-size: 0.8em;
+  }
+
+  &-location-map {
+    color: #898a8f;
+    font-size: 0.75em;
+  }
+
+  &-location-pin {
+    margin-right: 0.5em;
+  }
+}

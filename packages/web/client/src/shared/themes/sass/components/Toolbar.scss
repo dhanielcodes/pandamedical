@@ -1,0 +1,99 @@
+.Toolbar {
+  &-btn-tool-bar {
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    right: 0;
+  }
+
+  .btn-div {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+  }
+
+  &-floating-btn {
+    position: absolute;
+    top: 13px;
+    color: #fff;
+    background: #329d9c;
+    background: -webkit-linear-gradient(to bottom right, #7be495, #329d9c);
+    background: linear-gradient(to bottom right, #7be495, #329d9c);
+    display: block;
+    height: 4.8em;
+    width: 4.8em;
+    border-radius: 50%;
+    border: none;
+    cursor: pointer;
+    outline: none;
+
+    .fa-plus {
+      font-size: 2.5em;
+    }
+  }
+
+  &-toolbar {
+    // background-color: #fff;
+    background-image: url('../../assets/images/tabBar.png');
+    background-repeat: no-repeat;
+    background-position: center;
+    display: flex;
+    justify-content: space-between;
+    align-items: baseline;
+    padding: 2em;
+    font-size: 0.59em;
+
+    .home-icon {
+      filter: brightness(0) saturate(100%) invert(95%) sepia(29%) saturate(217%)
+        hue-rotate(43deg) brightness(93%) contrast(88%);
+    }
+
+    ul {
+      list-style-type: none;
+      display: flex;
+      align-items: baseline;
+      color: #cde0c9;
+
+      .active {
+        color: $secondary-text;
+        img {
+          filter: brightness(0) saturate(100%) invert(25%) sepia(7%)
+            saturate(5763%) hue-rotate(164deg) brightness(93%) contrast(84%);
+        }
+      }
+    }
+
+    li {
+      margin: 0 0.8em;
+      font-weight: $bold;
+      cursor: pointer;
+    }
+  }
+  .toolbar-icon {
+    font-size: 2.5em;
+    margin-bottom: 0.2em;
+  }
+
+  &-floating-btn {
+    position: absolute;
+    top: initial;
+  }
+
+  .btn-div {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+  }
+}
+
+@media (min-width: 450px) {
+  .Toolbar {
+    &-toolbar {
+      background-image: none;
+      background-color: #fff !important;
+      box-shadow: 0 0 50px #dbdbdb8c;
+    }
+  }
+}

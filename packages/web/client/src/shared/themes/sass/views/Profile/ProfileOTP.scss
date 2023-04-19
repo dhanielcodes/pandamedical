@@ -1,0 +1,16 @@
+.ProfileOTP {
+  background-color: #f5f9f4;
+
+  &-text {
+    font-weight: $bold;
+  }
+
+  &-image {
+    width: 180px;
+    height: 180px;
+  }
+
+  &-container-style {
+    margin-top: 5%;
+  }
+}

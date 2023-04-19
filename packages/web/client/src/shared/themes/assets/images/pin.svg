@@ -1,0 +1,10 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="18.8" height="24.7" viewBox="0 0 18.8 24.7">
+  <g id="Icons_pin" data-name="Icons/ pin" transform="translate(1.5 1.5)">
+    <g id="Icons_pin-2" data-name="Icons/ pin">
+      <path id="Path" d="M15.8,8.137C15.8,15.371,7.9,21.7,7.9,21.7S0,15.371,0,8.137A7.988,7.988,0,0,1,7.9,0,7.988,7.988,0,0,1,15.8,8.137Z" fill="none" stroke="#cde0c9" stroke-linecap="round" stroke-linejoin="round" stroke-miterlimit="10" stroke-width="3"/>
+      <path id="Path-2" data-name="Path" d="M.75,0V5.425" transform="translate(5.394 6.329)" fill="none" stroke="#cde0c9" stroke-linecap="round" stroke-linejoin="round" stroke-miterlimit="10" stroke-width="3"/>
+      <path id="Path-3" data-name="Path" d="M.75,0V5.425" transform="translate(8.906 6.329)" fill="none" stroke="#cde0c9" stroke-linecap="round" stroke-linejoin="round" stroke-miterlimit="10" stroke-width="3"/>
+      <path id="Path-4" data-name="Path" d="M0,.75H3.511" transform="translate(6.144 8.292)" fill="none" stroke="#cde0c9" stroke-linecap="round" stroke-linejoin="round" stroke-miterlimit="10" stroke-width="3"/>
+    </g>
+  </g>
+</svg>

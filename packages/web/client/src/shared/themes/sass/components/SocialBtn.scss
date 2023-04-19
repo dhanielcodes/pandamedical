@@ -1,0 +1,23 @@
+.SocialBtn {
+  margin: 10px auto;
+  &-social {
+    font-family: $base-font;
+    font-weight: $bold;
+    border: 1px solid #707070;
+    padding: 0.7em;
+    width: 65%;
+    font-size: 80%;
+    border-radius: 10px;
+    outline: none;
+  }
+
+  &-content {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+  }
+
+  .social-icon {
+    margin-right: 5px;
+  }
+}

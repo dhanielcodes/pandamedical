@@ -1,0 +1,24 @@
+.DoctorOption {
+  background-color: #fece5b;
+  border-radius: 15px;
+  padding: 1em;
+  margin: 0.5em 0.5em 1em 0;
+  cursor: pointer;
+  &-content {
+    display: flex;
+    align-items: center;
+    white-space: nowrap;
+    font-weight: $bold;
+    text-align: justify;
+  }
+
+  &-icon {
+    margin-right: 20px;
+  }
+
+  &-title {
+    font-size: 0.8em;
+    color: #3b8767;
+    text-transform: capitalize;
+  }
+}

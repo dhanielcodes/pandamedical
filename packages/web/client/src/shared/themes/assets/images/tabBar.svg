@@ -1,0 +1,17 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="414" height="120.83" viewBox="0 0 414 120.83">
+  <defs>
+    <clipPath id="clip-path"/>
+    <filter id="Tab_Bar" x="0" y="0" width="414" height="120.83" filterUnits="userSpaceOnUse">
+      <feOffset dy="-5" input="SourceAlpha"/>
+      <feGaussianBlur stdDeviation="6.5" result="blur"/>
+      <feFlood flood-color="#768673" flood-opacity="0.078"/>
+      <feComposite operator="in" in2="blur"/>
+      <feComposite in="SourceGraphic"/>
+    </filter>
+  </defs>
+  <g id="Tab_Bar-2" data-name="Tab Bar" transform="translate(19.5 24.5)" clip-path="url(#clip-path)">
+    <g transform="matrix(1, 0, 0, 1, -19.5, -24.5)" filter="url(#Tab_Bar)">
+      <path id="Tab_Bar-3" data-name="Tab Bar" d="M375,0V81.83H0V0H130.35c8.687,0,16.38,6.06,19.332,15.079C155.274,32.159,170.1,44.37,187.5,44.37s32.216-12.211,37.808-29.291C228.262,6.06,235.955,0,244.641,0Z" transform="translate(19.5 24.5)" fill="#fff"/>
+    </g>
+  </g>
+</svg>

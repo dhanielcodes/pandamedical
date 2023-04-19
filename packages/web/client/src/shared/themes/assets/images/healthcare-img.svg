@@ -1,0 +1,14 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="27" height="27.683" viewBox="0 0 27 27.683">
+  <g id="Atoms_Icons_Date" data-name="Atoms/ Icons/ Date" transform="translate(1 1)">
+    <g id="healthcare-medical-healthcare">
+      <g id="healthcare-medical-healthcare-2" data-name="healthcare-medical-healthcare" transform="translate(0 0)">
+        <path id="Path" d="M3.846,10.463V2.854A.9.9,0,0,0,2.885,1.9H1.923A1.918,1.918,0,0,1,0,0H0" transform="translate(9.615 0)" fill="none" stroke="#68b2a0" stroke-linecap="round" stroke-linejoin="round" stroke-miterlimit="10" stroke-width="2"/>
+        <path id="Path-2" data-name="Path" d="M0,0A6.654,6.654,0,0,0,6.731,6.659h0A6.654,6.654,0,0,0,13.462,0" transform="translate(0 10.463)" fill="none" stroke="#68b2a0" stroke-linecap="round" stroke-linejoin="round" stroke-miterlimit="10" stroke-width="2"/>
+        <path id="Path-3" data-name="Path" d="M3.846,0h0A1.918,1.918,0,0,1,1.923,1.9H.962A.9.9,0,0,0,0,2.854v7.61" transform="translate(0 0)" fill="none" stroke="#68b2a0" stroke-linecap="round" stroke-linejoin="round" stroke-miterlimit="10" stroke-width="2"/>
+        <ellipse id="Oval" cx="3.846" cy="3.805" rx="3.846" ry="3.805" transform="translate(17.308 2.854)" fill="none" stroke="#68b2a0" stroke-linecap="round" stroke-linejoin="round" stroke-miterlimit="10" stroke-width="2"/>
+        <path id="Path-4" data-name="Path" d="M.75.75h0" transform="translate(20.404 5.909)" fill="none" stroke="#68b2a0" stroke-linecap="round" stroke-linejoin="round" stroke-miterlimit="10" stroke-width="2"/>
+        <path id="Path-5" data-name="Path" d="M0,6.659V8.085A7.225,7.225,0,0,0,7.212,15.22h0a7.225,7.225,0,0,0,7.212-7.134V0" transform="translate(6.731 10.463)" fill="none" stroke="#68b2a0" stroke-linecap="round" stroke-linejoin="round" stroke-miterlimit="10" stroke-width="2"/>
+      </g>
+    </g>
+  </g>
+</svg>

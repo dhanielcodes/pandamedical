@@ -1,0 +1,61 @@
+.Landing {
+  color: $primary-text;
+  font-family: $base-font;
+  padding: 10px;
+
+  p,
+  h3 {
+    margin: 1em 0;
+  }
+
+  h3 {
+    color: $secondary-text;
+  }
+
+  p {
+    font-size: 0.9rem;
+    font-weight: $medium;
+  }
+
+  #Welcome-friend {
+    margin: 30px auto;
+  }
+
+  img {
+    margin-bottom: 10px;
+  }
+
+  &-doctor {
+    margin: 4.5rem auto;
+    img {
+      width: 100%;
+    }
+  }
+
+  &-start {
+    @extend %btn;
+    text-decoration: none;
+    padding: 20px 80px;
+    display: inline-block;
+    margin-bottom: 20px;
+  }
+
+  .sign-in {
+    color: $secondary-text;
+    text-decoration: none;
+  }
+
+  .slick-slide div {
+    outline: none !important;
+  }
+
+  .slick-dots li.slick-active button:before {
+    color: #56c596;
+  }
+
+  .slick-dots li button:before {
+    font-size: 10px;
+    color: #f4f9f4;
+    opacity: 1;
+  }
+}

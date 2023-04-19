@@ -1,0 +1,32 @@
+{
+    "name": "@pandamedical/core",
+    "version": "1.0.0",
+    "description": "medical app to help patients connects with healthcare providers ",
+    "main": "index.js",
+    "repository": "https://gitlab.com/diggitalInc/pandamedical.git",
+    "author": "rafaelvalentine <ozichukwuezike@hotmail.com>",
+    "license": "MIT",
+    "private": true,
+    "workspaces": [
+        "packages/*",
+        "packages/web/*"
+    ],
+    "engines": {
+        "yarn": "1.x"
+    },
+    "scripts": {
+        "build": "yarn run build:client && yarn run server:seeder && yarn run build:server",
+        "build:client": "yarn workspace @pandamedical/client build",
+        "build:server": "yarn workspace @pandamedical/server build",
+        "server:seeder": "yarn workspace @pandamedical/server prod-server:seed",
+        "start": "yarn workspace @pandamedical/server start",
+        "dev:client": "yarn workspace @pandamedical/client start",
+        "dev:server": "yarn workspace @pandamedical/server watch:dev",
+        "prod:server": "yarn workspace @pandamedical/server watch:prod",
+        "lint:web": "yarn workspace @pandamedical/client lint",
+        "lint:server": "yarn workspace @pandamedical/server lint",
+        "lint:web-fix": "yarn workspace @pandamedical/client lint:fix",
+        "lint:server-fix": "yarn workspace @pandamedical/server lint:fix",
+        "generate-docs": "yarn workspace @pandamedical/server generate-docs"
+    }
+}

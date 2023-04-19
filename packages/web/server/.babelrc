@@ -1,0 +1,23 @@
+{
+    "presets": ["@babel/preset-env"],
+    "ignore": ["**/*.test.js", "/node_modules/"],
+    "plugins": [
+        [
+            "module-resolver",
+            {
+                "root": ["./app"],
+                "alias": {
+                    "config": "./app/config",
+                    "controllers": "./app/src/controllers",
+                    "constants": "./app/constants",
+                    "database": "./app/src/database",
+                    "models": "./app/src/database/models",
+                    "routes": "./app/src/routes",
+                    "helpers": "./app/src/helpers",
+                    "services": "./app/src/services",
+                    "middleware": "./app/src/middleware"
+                }
+            }
+        ]
+    ]
+}

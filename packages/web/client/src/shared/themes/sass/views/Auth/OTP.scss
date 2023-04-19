@@ -1,0 +1,49 @@
+.OTP {
+  color: $secondary-text;
+  font-family: $base-font;
+  padding: 10px;
+
+  &-form {
+    margin: 5rem auto;
+  }
+
+  .input-style {
+    margin: 0.5em;
+    height: 3.1em;
+    width: 3.1em !important;
+    border: 1px solid #e0ecde;
+    border-radius: 10px;
+    outline: none;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 700;
+    color: #56c596;
+  }
+
+  .container-style {
+    display: flex;
+    justify-content: center;
+    margin-top: 30%;
+  }
+
+  .focus-style {
+    border: none;
+    box-shadow: 0 13px 34px rgba(50, 157, 156, 0.13);
+  }
+
+  &-help {
+    font-weight: $medium;
+    color: $primary-text;
+    margin: 18% 0;
+  }
+
+  &-resend {
+    font-weight: inherit;
+    color: $secondary-text;
+    cursor: pointer;
+    background: none;
+    border: none;
+    outline: none;
+    font-family: inherit;
+    font-size: inherit;
+  }
+}

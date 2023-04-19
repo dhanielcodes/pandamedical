@@ -1,0 +1,41 @@
+.Dashboard {
+  &-doughnut {
+    padding: 1em;
+    padding-top: 0;
+    margin-bottom: 1em;
+    border-bottom: 1px solid #d6d9dc;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .chart-text {
+    position: absolute;
+
+    #average {
+      color: #010101;
+      font-weight: $bold;
+    }
+
+    #data-num {
+      color: #000000;
+      font-family: 'Nunito Sans', sans-serif;
+      font-size: 2.5rem;
+      font-weight: 300;
+    }
+
+    #data-unit {
+      color: #010101;
+      font-weight: 500;
+    }
+  }
+}
+
+@media (min-width: 700px) {
+  .Dashboard {
+    &-doughnut {
+      padding: 4em;
+      padding-top: 0;
+    }
+  }
+}

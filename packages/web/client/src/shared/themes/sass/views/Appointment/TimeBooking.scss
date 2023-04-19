@@ -1,0 +1,248 @@
+.TimeBooking {
+  font-family: 'Poppins', sans-serif;
+  .BookAppointment-header {
+    padding-right: 1em;
+    padding-left: 1em;
+    padding-bottom: 8em;
+    position: relative;
+  }
+
+  &-body {
+    width: 93%;
+    margin: auto;
+    position: relative;
+    top: -7em;
+    background-color: #fff;
+    border-radius: 15px;
+    padding: 1em;
+    position: relative;
+    box-shadow: 0 9px 38px rgba(0, 0, 0, 0.16);
+    min-height: 42.5em;
+  }
+
+  .Confirmation-body {
+    min-height: 30em;
+  }
+
+  &-back-text {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+  }
+
+  &-header-text {
+    font-weight: $bold;
+    white-space: nowrap;
+  }
+
+  &-avatar {
+    border-radius: 50%;
+    border: 1px solid #56c596;
+    height: 4.5em;
+    width: 4.5em;
+    overflow: hidden;
+    margin-right: 0.8em;
+    margin-top: 0.5em;
+    margin-bottom: 1em;
+    position: relative;
+    img {
+      height: 100%;
+      width: 100%;
+      object-fit: cover;
+    }
+  }
+
+  .SpecialistProfile-basic-details {
+    display: grid;
+    grid-template-columns: 1fr 3fr;
+    text-align: left;
+    padding-left: 0.85em;
+    padding-right: 0.85em;
+    overflow: hidden;
+  }
+
+  .TimeBooking-profile-header {
+    border-bottom: 1px solid #ececec;
+    margin-bottom: 0.8em;
+  }
+
+  &-qualifications {
+    font-size: 0.8em;
+    max-width: 80%;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+  }
+
+  &-doc-details {
+    margin-top: 1em;
+    margin-left: 0.5em;
+  }
+
+  &-date {
+    color: #313450;
+    font-size: 0.95em;
+    white-space: nowrap;
+  }
+
+  &-no-slots {
+    color: #898a8f;
+    font-size: 0.85em;
+    margin-top: 3.5em;
+    margin-bottom: 2em;
+  }
+
+  &-next-availability {
+    background-color: #56c596;
+    border-radius: 50px;
+    color: #fff;
+    font-size: 0.95em;
+    font-weight: $semi-bold;
+    padding: 0.8em;
+    margin: 0 1em;
+  }
+
+  &-or {
+    color: #898a8f;
+    font-size: 0.85em;
+    margin-top: 1em;
+  }
+
+  &-caret-right {
+    background-color: #56c596;
+    border-radius: 50%;
+    display: inline-flex;
+    justify-content: center;
+    margin-top: 1em;
+    padding: 1.1em;
+    cursor: pointer;
+
+    img {
+      width: 1em;
+      height: 1em;
+    }
+  }
+
+  &-book-btn {
+    background: #56c596;
+    padding: 1em;
+    border-radius: 50px;
+    margin: 0 1em;
+    margin-top: 3em;
+    color: #fff;
+    font-weight: $semi-bold;
+    font-size: 0.9em;
+    text-transform: capitalize;
+  }
+
+  &-navigation {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    align-items: center;
+    padding-left: 0.8em;
+    padding-right: 0.8em;
+    margin-bottom: 2.5em;
+  }
+
+  &-previous,
+  &-next {
+    background-color: #fff;
+    box-shadow: 0 1px 8px rgba(0, 0, 0, 0.13);
+    width: 2em;
+    height: 2em;
+    border-radius: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+  }
+
+  &-next {
+    justify-self: end;
+  }
+
+  &-previous {
+    img {
+      transform: rotate(180deg);
+    }
+  }
+
+  &-miniloader-container {
+    display: flex;
+    justify-content: center;
+  }
+
+  .Vitals-value {
+    margin-bottom: 0.5em;
+  }
+}
+
+.Confirmation {
+  &-date-fee {
+    display: flex;
+    justify-content: space-between;
+    text-align: left;
+    border-bottom: 1px solid #ececec;
+    padding-bottom: 0.5em;
+  }
+
+  &-heading {
+    color: #898a8f;
+    font-size: 0.9em;
+  }
+
+  &-content {
+    font-size: 0.9em;
+    font-weight: $semi-bold;
+    color: #313450;
+  }
+
+  &-line {
+    border-right: 1px solid #ececec;
+  }
+
+  &-text {
+    color: #313450;
+    font-weight: $semi-bold;
+    margin-top: 2em;
+  }
+
+  &-btn {
+    margin: 0;
+    margin-top: 2em;
+    width: 100%;
+  }
+
+  &-disclaimer {
+    color: #898a8f;
+    font-size: 0.7em;
+    margin-top: 1.5em;
+  }
+
+  &-T-C {
+    color: #56c596;
+    cursor: pointer;
+  }
+
+  &-hurray {
+    color: #56c596;
+    font-weight: $bold;
+    font-size: 1.3em;
+    margin: 2em 0;
+  }
+
+  &-all-set {
+    font-weight: $semi-bold;
+    margin-top: 1em;
+  }
+
+  &-tip {
+    color: #898a8f;
+    font-size: 0.75em;
+  }
+
+  &-form {
+    width: 90%;
+    margin: auto;
+    padding: 2em 0;
+  }
+}

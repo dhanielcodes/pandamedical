@@ -1,0 +1,359 @@
+.Profile {
+  background-color: #f5f5f5;
+  min-height: 100vh;
+  position: relative;
+
+  &-header {
+    background-color: #e0ecde;
+    padding: 3em 1.5em 4.5em;
+    border-bottom-left-radius: 34px;
+    border-bottom-right-radius: 34px;
+    color: $secondary-text;
+    font-size: 1.15em;
+    font-weight: $bold;
+    position: relative;
+
+    p {
+      justify-self: center;
+      white-space: nowrap;
+    }
+  }
+
+  &-settings-header {
+    padding-bottom: 3.8em;
+  }
+
+  &-settings-header-gear-back {
+    display: flex;
+    justify-content: space-between;
+  }
+
+  &-header-text-back {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    justify-items: start;
+  }
+
+  &-back {
+    cursor: pointer;
+  }
+
+  &-img {
+    margin-top: 1.5em;
+  }
+
+  &-body-container {
+    display: flex;
+    justify-content: center;
+    position: relative;
+  }
+
+  &-settings-body-container {
+    display: flex;
+    justify-content: center;
+    position: relative;
+    flex-direction: column;
+    top: -4em;
+  }
+
+  &-avatar-container {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+  }
+
+  &-avatar {
+    border-radius: 50%;
+    height: 116px;
+    width: 116px;
+    overflow: hidden;
+    border: 3.1px solid #56c596;
+    position: relative;
+    img {
+      width: 100%;
+      height: 100%;
+    }
+  }
+
+  &-info-pen {
+    position: relative;
+  }
+
+  &-pen {
+    position: absolute;
+    top: 30%;
+    right: -2em;
+    width: 2em;
+    height: 2em;
+  }
+
+  &-info {
+    color: $secondary-text;
+    padding: 0.5em 0 1.5em;
+    line-height: 1.5;
+  }
+
+  &-name {
+    font-weight: $semi-bold;
+  }
+
+  &-dob,
+  &-gender {
+    font-size: 0.85em;
+    font-family: $poppins;
+    text-transform: capitalize;
+  }
+
+  &-body {
+    width: 93%;
+    margin: auto;
+    padding: 1.5em 1em;
+    padding-bottom: 5em;
+    border-radius: 20px;
+    box-shadow: 0 9px 38px rgba(0, 0, 0, 0.16);
+    background-color: #fff;
+    position: relative;
+    top: -4em;
+    min-height: 30em;
+  }
+
+  &-settings-body {
+    top: initial;
+  }
+
+  &-settings-sub-heading {
+    color: $secondary-text;
+    text-align: left;
+    font-weight: $semi-bold;
+    background-color: #e0ecde;
+    padding: 0.8em 1.8em;
+    margin-bottom: 0.5em;
+    border-radius: 50px;
+  }
+
+  &-settings-item {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border-bottom: 1px solid #ececec;
+    padding: 1.5em 0;
+    padding-left: 1.5em;
+    font-family: $poppins;
+  }
+
+  &-settings-section {
+    padding-bottom: 3em;
+  }
+
+  &-settings-item-title {
+    font-size: 0.9rem;
+    color: $secondary-text;
+    text-transform: capitalize;
+  }
+
+  &-settings-item-value {
+    font-size: 0.75rem;
+    color: #898a8f;
+  }
+
+  &-settings-unit {
+    text-transform: capitalize;
+  }
+
+  &-settings-item-value-caret {
+    display: flex;
+    align-items: center;
+  }
+
+  &-settings-item-caret {
+    width: 0.5em;
+    height: 0.5em;
+    margin-left: 1em;
+  }
+
+  &-empty {
+    margin-top: 3em;
+  }
+
+  &-empty-text {
+    color: $secondary-text;
+    font-weight: $bold;
+    font-size: 2em;
+    margin: 0.3em 0;
+  }
+
+  &-empty-info {
+    color: #707070;
+    font-weight: $bold;
+    font-size: 1.15em;
+    text-transform: capitalize;
+  }
+
+  .hint {
+    font-size: 0.7em;
+    margin-top: 0;
+    margin-bottom: 1em;
+  }
+
+  &-label {
+    color: $secondary-text;
+    font-weight: $bold;
+    font-size: 0.9em;
+    display: block;
+    text-align: left;
+    margin: 1em 0;
+    margin-left: 1em;
+  }
+
+  &-form {
+    width: 95%;
+    margin: auto;
+  }
+
+  .phone-hint {
+    margin-top: 1em;
+  }
+
+  &-blood-btn {
+    margin-top: 3em;
+  }
+
+  &-dropdown {
+    background-color: #fff !important;
+    appearance: none;
+    -moz-appearance: none;
+    -webkit-appearance: none;
+  }
+
+  &-select {
+    position: relative;
+  }
+
+  &-input {
+    margin-bottom: 1.5em;
+  }
+
+  &-select-caret {
+    position: absolute;
+    top: 40%;
+    right: 1em;
+    width: 0.7em;
+    height: 0.7em;
+  }
+
+  &-address-input {
+    outline: none;
+    width: 100%;
+    min-height: 8em;
+    border-radius: 5px;
+    border: none;
+    margin-top: 0.2em;
+    margin-bottom: 0;
+    resize: none;
+    padding: 1em;
+    font-family: inherit;
+    transition: none;
+
+    &::placeholder {
+      font-size: 1.05em !important;
+      color: #56c596;
+      font-weight: $bold;
+    }
+
+    &:focus {
+      border: 1px solid #56c596;
+    }
+  }
+
+  &-physician-search-input {
+    background-color: #fff !important;
+    box-shadow: 0 0 50px rgba(50, 157, 156, 0.13) !important;
+  }
+
+  &-units-form {
+    margin-top: 0.5em;
+  }
+
+  &-radio-option {
+    display: flex;
+    justify-content: space-between;
+    font-family: $poppins;
+    padding: 1.5em 0;
+    border-bottom: 1px solid #ececec;
+  }
+
+  &-radio-label {
+    color: $secondary-text;
+  }
+
+  &-radio-option-examples {
+    color: #898a8f;
+    font-size: 0.8em;
+  }
+
+  &-radio-examples {
+    display: flex;
+    align-items: center;
+  }
+
+  &-radio {
+    margin-left: 1.5em;
+    -webkit-appearance: none;
+    width: 20px;
+    height: 20px;
+    border-radius: 50%;
+    outline: none;
+    border: 1px solid #68b2a0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+
+    &:before {
+      content: '';
+      display: block;
+      width: 100%;
+      height: 100%;
+      margin: 20% auto;
+      border-radius: 50%;
+      display: flex;
+      justify-content: center;
+    }
+
+    &:checked:before {
+      content: url('../../../assets/images/radio-check.svg');
+      background: #56c596;
+    }
+
+    &:checked {
+      border-color: #56c596;
+    }
+  }
+
+  &-unit-btn {
+    margin-top: 3em;
+  }
+
+  &-user-info-form {
+    margin-top: 3em;
+  }
+
+  &-user-info-edit {
+    color: $secondary-text;
+    font-weight: $bold;
+    margin-top: 1em;
+  }
+
+  &-user-info-pen {
+    margin-left: 0.8em;
+  }
+
+  .border-input {
+    input {
+      padding: 15px;
+      color: #56c596;
+      border: 1px solid #56c596;
+      font-weight: $bold;
+    }
+  }
+}

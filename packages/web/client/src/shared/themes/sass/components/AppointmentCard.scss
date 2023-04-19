@@ -1,0 +1,133 @@
+.AppointmentCard {
+  text-align: left;
+  padding: 1em;
+  background-color: #fff;
+  width: 90%;
+  margin: auto;
+  margin-bottom: 1.5em;
+  border-radius: 10px;
+  font-family: $poppins;
+
+  &-accepted-appointment {
+    background-color: #e2f6df;
+  }
+
+  &-rejected-appointment {
+    background-color: #f8d5d5;
+  }
+
+  &-avatar {
+    border-radius: 50%;
+    max-height: 5.5em;
+    max-width: 5.5em;
+    overflow: hidden;
+    margin-right: 1em;
+    margin-bottom: 1em;
+    position: relative;
+    img {
+      height: 100%;
+      width: 100%;
+    }
+  }
+
+  &-avatar-details-status {
+    display: flex;
+    justify-content: space-between;
+  }
+
+  &-avatar-details {
+    display: flex;
+  }
+
+  &-details,
+  &-status {
+    text-transform: capitalize;
+  }
+
+  &-location {
+    display: flex;
+  }
+
+  &-location-icon {
+    margin-right: 0.5em;
+    width: 0.9em;
+  }
+
+  &-name {
+    font-size: 0.9em;
+    font-weight: $medium;
+  }
+
+  &-gender,
+  &-dob,
+  &-location {
+    font-size: 0.8em;
+    color: #898a8f;
+  }
+
+  &-insurance {
+    font-size: 0.85em;
+    color: #56c596;
+  }
+
+  &-status {
+    font-size: 0.75em;
+  }
+
+  .pending,
+  .accepted {
+    color: #27ae60;
+  }
+
+  .rejected {
+    color: #fe7373;
+  }
+
+  &-topic-view {
+    margin-top: 1em;
+  }
+
+  &-topic {
+    font-size: 0.95em;
+  }
+
+  &-topic-content {
+    font-size: 0.85em;
+    color: #898a8f;
+    margin-top: 0.3em;
+  }
+
+  &-view {
+    margin-top: 0.8em;
+    color: #329d9c;
+    font-weight: $semi-bold;
+  }
+
+  &-buttons {
+    margin-top: 1.5em;
+    display: flex;
+    justify-content: space-around;
+  }
+
+  &-btn {
+    width: 46%;
+    padding: 10px 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 0.8em;
+  }
+
+  &-btn-reschedule {
+    color: #56c596;
+    background-color: #f3f8f3;
+    border: 1px solid #56c596;
+    text-decoration: none;
+  }
+
+  .btn-image {
+    margin-left: 0.75em;
+    width: 1.2em;
+    height: 1.2em;
+  }
+}

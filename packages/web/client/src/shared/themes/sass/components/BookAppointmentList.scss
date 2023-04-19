@@ -1,0 +1,20 @@
+.BookAppointmentList {
+  padding: 1.5em;
+  padding-right: 0.5em;
+  padding-bottom: 1em;
+  border-bottom: 1px solid #ececec;
+  display: flex;
+  align-items: center;
+  font-family: 'Poppins', sans-serif;
+  text-align: left;
+
+  &-profession {
+    color: #404040;
+    font-weight: $semi-bold;
+  }
+
+  &-description {
+    color: #898a8f;
+    font-size: 0.75em;
+  }
+}

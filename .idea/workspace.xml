@@ -1,0 +1,615 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="ac7825a3-9631-4f63-9605-a5554a614629" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/packages/web/client/src/config/firebase.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/packages/web/client/src/helpers/helperFunctions.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/packages/web/client/src/helpers/hoc/GuestRoute.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/packages/web/client/src/helpers/hoc/PrivateRoute.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/packages/web/client/src/helpers/vitalsHelper.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/packages/web/client/src/services/firebase/auth.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/packages/web/client/src/services/firebase/database.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/packages/web/client/src/services/firebase/index.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/packages/web/client/src/shared/components/Menu.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/packages/web/client/src/shared/components/SearchInput.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/packages/web/client/src/shared/components/TestResultCard.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/packages/web/client/src/shared/components/Toolbar.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/packages/web/client/src/shared/themes/assets/images/add-vital.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/packages/web/client/src/shared/themes/assets/images/appointment-img.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/packages/web/client/src/shared/themes/assets/images/atm-card.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/packages/web/client/src/shared/themes/assets/images/attention.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/packages/web/client/src/shared/themes/assets/images/back-arrow-white.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/packages/web/client/src/shared/themes/assets/images/back-grey.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/packages/web/client/src/shared/themes/assets/images/back-icon.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/packages/web/client/src/shared/themes/assets/images/calendar.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/packages/web/client/src/shared/themes/assets/images/cancel.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/packages/web/client/src/shared/themes/assets/images/caret-right-white.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/packages/web/client/src/shared/themes/assets/images/clear-search.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/packages/web/client/src/shared/themes/assets/images/confirmation-success.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/packages/web/client/src/shared/themes/assets/images/doctor.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/packages/web/client/src/shared/themes/assets/images/email.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/packages/web/client/src/shared/themes/assets/images/email_locked.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/packages/web/client/src/shared/themes/assets/images/empty.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/packages/web/client/src/shared/themes/assets/images/error.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/packages/web/client/src/shared/themes/assets/images/eye.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/packages/web/client/src/shared/themes/assets/images/family-img.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/packages/web/client/src/shared/themes/assets/images/filter-cancel.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/packages/web/client/src/shared/themes/assets/images/filter.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/packages/web/client/src/shared/themes/assets/images/forgot_password.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/packages/web/client/src/shared/themes/assets/images/green-caret-down.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/packages/web/client/src/shared/themes/assets/images/hamburger-close.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/packages/web/client/src/shared/themes/assets/images/healthcare-img.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/packages/web/client/src/shared/themes/assets/images/healthcare.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/packages/web/client/src/shared/themes/assets/images/hurray.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/packages/web/client/src/shared/themes/assets/images/lab-result-search.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/packages/web/client/src/shared/themes/assets/images/location-pin-blue.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/packages/web/client/src/shared/themes/assets/images/location-pin.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/packages/web/client/src/shared/themes/assets/images/location-purple.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/packages/web/client/src/shared/themes/assets/images/locked.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/packages/web/client/src/shared/themes/assets/images/logout.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/packages/web/client/src/shared/themes/assets/images/medic-project.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/packages/web/client/src/shared/themes/assets/images/medic-project2.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/packages/web/client/src/shared/themes/assets/images/medical-records.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/packages/web/client/src/shared/themes/assets/images/medplus.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/packages/web/client/src/shared/themes/assets/images/menu-caret-right.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/packages/web/client/src/shared/themes/assets/images/menu-family.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/packages/web/client/src/shared/themes/assets/images/menu-logout.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/packages/web/client/src/shared/themes/assets/images/menu-records.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/packages/web/client/src/shared/themes/assets/images/not-found.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/packages/web/client/src/shared/themes/assets/images/notification-bell.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/packages/web/client/src/shared/themes/assets/images/phone-sms.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/packages/web/client/src/shared/themes/assets/images/policies.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/packages/web/client/src/shared/themes/assets/images/profile-picture-female.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/packages/web/client/src/shared/themes/assets/images/profile-picture.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/packages/web/client/src/shared/themes/assets/images/school-bell.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/packages/web/client/src/shared/themes/assets/images/search-icon.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/packages/web/client/src/shared/themes/assets/images/settings.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/packages/web/client/src/shared/themes/assets/images/sms-locked.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/packages/web/client/src/shared/themes/assets/images/sms.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/packages/web/client/src/shared/themes/assets/images/star.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/packages/web/client/src/shared/themes/assets/images/success.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/packages/web/client/src/shared/themes/assets/images/support.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/packages/web/client/src/shared/themes/assets/images/vital-plus.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/packages/web/client/src/shared/themes/assets/images/vitals-bmi.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/packages/web/client/src/shared/themes/assets/images/vitals-bp.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/packages/web/client/src/shared/themes/assets/images/vitals-bsa.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/packages/web/client/src/shared/themes/assets/images/vitals-graph.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/packages/web/client/src/shared/themes/assets/images/vitals-heart-rate.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/packages/web/client/src/shared/themes/assets/images/vitals-height.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/packages/web/client/src/shared/themes/assets/images/vitals-img.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/packages/web/client/src/shared/themes/assets/images/vitals-lungs.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/packages/web/client/src/shared/themes/assets/images/vitals-oxygen.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/packages/web/client/src/shared/themes/assets/images/vitals-remove.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/packages/web/client/src/shared/themes/assets/images/vitals-temp.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/packages/web/client/src/shared/themes/assets/images/vitals-weight.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/packages/web/client/src/shared/themes/sass/components/BookAppointmentList.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/packages/web/client/src/shared/themes/sass/components/DashboardSideMenu.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/packages/web/client/src/shared/themes/sass/components/RecordCard.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/packages/web/client/src/shared/themes/sass/components/SearchInput.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/packages/web/client/src/shared/themes/sass/components/SpecialityProfileCard.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/packages/web/client/src/shared/themes/sass/components/TestResultCard.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/packages/web/client/src/shared/themes/sass/components/TimeSlots.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/packages/web/client/src/shared/themes/sass/components/Toolbar.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/packages/web/client/src/shared/themes/sass/components/VitalRecordCard.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/packages/web/client/src/shared/themes/sass/views/Appointment/BookAppointment.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/packages/web/client/src/shared/themes/sass/views/Appointment/Filter.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/packages/web/client/src/shared/themes/sass/views/Appointment/SpecialistProfile.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/packages/web/client/src/shared/themes/sass/views/Appointment/SpecialityProfiles.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/packages/web/client/src/shared/themes/sass/views/Appointment/TimeBooking.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/packages/web/client/src/shared/themes/sass/views/ForgotPassword/ForgotPassword.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/packages/web/client/src/shared/themes/sass/views/PageNotFound/PageNotFound.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/packages/web/client/src/shared/themes/sass/views/Vitals/Vitals.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/packages/web/client/src/store/context/auth/AuthContext.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/packages/web/client/src/store/reducers/authReducer.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/packages/web/client/src/utilities/axios.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/packages/web/client/src/views/Appointment/components/BookAppointmentList.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/packages/web/client/src/views/Appointment/components/Filter.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/packages/web/client/src/views/Appointment/components/MapComponent.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/packages/web/client/src/views/Appointment/components/OtherProfilesCard.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/packages/web/client/src/views/Appointment/components/SpecialityProfileCard.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/packages/web/client/src/views/Appointment/components/TimeSlots.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/packages/web/client/src/views/Appointment/index.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/packages/web/client/src/views/Appointment/pages/BookAppointment/index.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/packages/web/client/src/views/Appointment/pages/Confirmation/index.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/packages/web/client/src/views/Appointment/pages/ConfirmationSuccess/index.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/packages/web/client/src/views/Appointment/pages/HealthcareFacilities/index.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/packages/web/client/src/views/Appointment/pages/HospitalProfile/index.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/packages/web/client/src/views/Appointment/pages/Hospitals/index.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/packages/web/client/src/views/Appointment/pages/SpecialistProfile/index.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/packages/web/client/src/views/Appointment/pages/Specialities/index.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/packages/web/client/src/views/Appointment/pages/SpecialityProfiles/index.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/packages/web/client/src/views/Appointment/pages/TimeBooking/index.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/packages/web/client/src/views/Appointment/pages/index.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/packages/web/client/src/views/Appointment/routes/index.routes.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/packages/web/client/src/views/Dashboard/components/DashboardSideMenu.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/packages/web/client/src/views/Dashboard/components/SideMenuItem.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/packages/web/client/src/views/ForgotPassword/index.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/packages/web/client/src/views/ForgotPassword/pages/EmailRecovery/index.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/packages/web/client/src/views/ForgotPassword/pages/Hurray/index.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/packages/web/client/src/views/ForgotPassword/pages/Method/index.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/packages/web/client/src/views/ForgotPassword/pages/NewPassword/index.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/packages/web/client/src/views/ForgotPassword/pages/OTPRecovery/index.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/packages/web/client/src/views/ForgotPassword/pages/SMSRecovery/index.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/packages/web/client/src/views/ForgotPassword/pages/index.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/packages/web/client/src/views/ForgotPassword/routes/index.routes.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/packages/web/client/src/views/LabResults/index.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/packages/web/client/src/views/LabResults/pages/AddLabResults/index.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/packages/web/client/src/views/LabResults/pages/LabDetails/index.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/packages/web/client/src/views/LabResults/pages/LabRecords/index.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/packages/web/client/src/views/LabResults/pages/index.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/packages/web/client/src/views/LabResults/routes/index.routes.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/packages/web/client/src/views/MedicalRecords/components/RecordCard.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/packages/web/client/src/views/MedicalRecords/index.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/packages/web/client/src/views/MedicalRecords/pages/RecordsList/index.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/packages/web/client/src/views/MedicalRecords/pages/index.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/packages/web/client/src/views/MedicalRecords/routes/index.routes.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/packages/web/client/src/views/PageNotFound/index.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/packages/web/client/src/views/Vitals/components/VitalRecordCard.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/packages/web/client/src/views/Vitals/index.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/packages/web/client/src/views/Vitals/pages/AddVitals/index.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/packages/web/client/src/views/Vitals/pages/VitalDetails/index.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/packages/web/client/src/views/Vitals/pages/VitalHistory/index.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/packages/web/client/src/views/Vitals/pages/VitalsRecords/index.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/packages/web/client/src/views/Vitals/pages/index.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/packages/web/client/src/views/Vitals/routes/index.routes.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/packages/web/common/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/packages/web/common/settings/.eslintignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/packages/web/common/settings/.eslintrc.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/packages/web/server/apidoc.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/packages/web/server/app/config/config.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/packages/web/server/app/config/seeder.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/packages/web/server/app/config/winston.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/packages/web/server/app/constants/labtests.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/packages/web/server/app/docs/appointments.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/packages/web/server/app/docs/auth.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/packages/web/server/app/docs/labresults.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/packages/web/server/app/docs/labtests.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/packages/web/server/app/docs/timeslots.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/packages/web/server/app/docs/user.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/packages/web/server/app/docs/vitals.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/packages/web/server/app/docs/vitalshistory.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/packages/web/server/app/src/controllers/appointment.controller.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/packages/web/server/app/src/controllers/audit.controller.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/packages/web/server/app/src/controllers/labTestResults.controller.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/packages/web/server/app/src/controllers/labTests.controller.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/packages/web/server/app/src/controllers/otp.controller.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/packages/web/server/app/src/controllers/timeslot.controller.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/packages/web/server/app/src/controllers/vitals.controller.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/packages/web/server/app/src/controllers/vitalshistory.controller.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/packages/web/server/app/src/database/models/appointment.model.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/packages/web/server/app/src/database/models/audit.model.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/packages/web/server/app/src/database/models/labTestResults.model.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/packages/web/server/app/src/database/models/labTests.model.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/packages/web/server/app/src/database/models/otp.model.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/packages/web/server/app/src/database/models/socialaccount.model.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/packages/web/server/app/src/database/models/timeslot.model.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/packages/web/server/app/src/database/models/user.model.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/packages/web/server/app/src/database/models/vital.model.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/packages/web/server/app/src/database/models/vitalsHistory.model.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/packages/web/server/app/src/helpers/globals.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/packages/web/server/app/src/helpers/routes.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/packages/web/server/app/src/routes/appointment.routes.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/packages/web/server/app/src/routes/audit.routes.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/packages/web/server/app/src/routes/labTestResults.routes.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/packages/web/server/app/src/routes/labTests.routes.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/packages/web/server/app/src/routes/otp.routes.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/packages/web/server/app/src/routes/timeslot.routes.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/packages/web/server/app/src/routes/vitals.routes.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/packages/web/server/app/src/routes/vitalshistory.routes.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/packages/web/server/app/src/services/email/index.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/packages/web/server/app/src/services/firebase/index.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/packages/web/server/app/views/email/appointment.hbs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/packages/web/server/app/views/email/forgotpassword/emaillink.hbs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/packages/web/server/app/views/email/login.hbs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/packages/web/server/app/views/email/test.hbs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/packages/web/server/docs/api_data.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/packages/web/server/docs/api_data.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/packages/web/server/docs/api_project.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/packages/web/server/docs/api_project.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/packages/web/server/docs/css/style.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/packages/web/server/docs/fonts/glyphicons-halflings-regular.eot" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/packages/web/server/docs/fonts/glyphicons-halflings-regular.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/packages/web/server/docs/fonts/glyphicons-halflings-regular.ttf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/packages/web/server/docs/fonts/glyphicons-halflings-regular.woff" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/packages/web/server/docs/fonts/glyphicons-halflings-regular.woff2" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/packages/web/server/docs/img/favicon.ico" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/packages/web/server/docs/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/packages/web/server/docs/locales/ca.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/packages/web/server/docs/locales/cs.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/packages/web/server/docs/locales/de.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/packages/web/server/docs/locales/es.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/packages/web/server/docs/locales/fr.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/packages/web/server/docs/locales/it.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/packages/web/server/docs/locales/locale.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/packages/web/server/docs/locales/nl.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/packages/web/server/docs/locales/pl.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/packages/web/server/docs/locales/pt_br.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/packages/web/server/docs/locales/ro.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/packages/web/server/docs/locales/ru.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/packages/web/server/docs/locales/tr.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/packages/web/server/docs/locales/vi.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/packages/web/server/docs/locales/zh.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/packages/web/server/docs/locales/zh_cn.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/packages/web/server/docs/main.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/packages/web/server/docs/utils/handlebars_helper.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/packages/web/server/docs/utils/send_sample_request.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/packages/web/server/docs/utils/send_sample_request_utils.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/packages/web/server/docs/vendor/bootstrap.min.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/packages/web/server/docs/vendor/bootstrap.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/packages/web/server/docs/vendor/diff_match_patch.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/packages/web/server/docs/vendor/handlebars.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/packages/web/server/docs/vendor/jquery.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/packages/web/server/docs/vendor/list.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/packages/web/server/docs/vendor/lodash.custom.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/packages/web/server/docs/vendor/path-to-regexp/LICENSE" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/packages/web/server/docs/vendor/path-to-regexp/index.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/packages/web/server/docs/vendor/polyfill.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/packages/web/server/docs/vendor/prism.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/packages/web/server/docs/vendor/prism.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/packages/web/server/docs/vendor/require.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/packages/web/server/docs/vendor/semver.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/packages/web/server/docs/vendor/webfontloader.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/packages/mobile/app/lib/repositories/sources/network/base/endpoints.dart" beforeDir="false" afterPath="$PROJECT_DIR$/packages/mobile/app/lib/repositories/sources/network/base/endpoints.dart" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/packages/web/client/.env.example" beforeDir="false" afterPath="$PROJECT_DIR$/packages/web/client/.env.example" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/packages/web/client/.eslintrc.json" beforeDir="false" afterPath="$PROJECT_DIR$/packages/web/client/.eslintrc.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/packages/web/client/.prettierrc.json" beforeDir="false" afterPath="$PROJECT_DIR$/packages/web/client/.prettierrc.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/packages/web/client/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/packages/web/client/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/packages/web/client/src/App.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/packages/web/client/src/App.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/packages/web/client/src/helpers/index.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/packages/web/client/src/helpers/inputHelper.ts" beforeDir="false" afterPath="$PROJECT_DIR$/packages/web/client/src/helpers/inputHelper.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/packages/web/client/src/helpers/route.tsx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/packages/web/client/src/index.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/packages/web/client/src/index.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/packages/web/client/src/react-app-env.d.ts" beforeDir="false" afterPath="$PROJECT_DIR$/packages/web/client/src/react-app-env.d.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/packages/web/client/src/routes/index.routes.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/packages/web/client/src/routes/index.routes.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/packages/web/client/src/shared/components/InputField.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/packages/web/client/src/shared/components/InputField.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/packages/web/client/src/shared/themes/sass/_config.scss" beforeDir="false" afterPath="$PROJECT_DIR$/packages/web/client/src/shared/themes/sass/_config.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/packages/web/client/src/shared/themes/sass/_variables.sass" beforeDir="false" afterPath="$PROJECT_DIR$/packages/web/client/src/shared/themes/sass/_variables.sass" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/packages/web/client/src/shared/themes/sass/app.sass" beforeDir="false" afterPath="$PROJECT_DIR$/packages/web/client/src/shared/themes/sass/app.sass" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/packages/web/client/src/shared/themes/sass/components/InputField.scss" beforeDir="false" afterPath="$PROJECT_DIR$/packages/web/client/src/shared/themes/sass/components/InputField.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/packages/web/client/src/shared/themes/sass/components/ResultCard.scss" beforeDir="false" afterPath="$PROJECT_DIR$/packages/web/client/src/shared/themes/sass/components/ResultCard.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/packages/web/client/src/shared/themes/sass/components/SocialBtn.scss" beforeDir="false" afterPath="$PROJECT_DIR$/packages/web/client/src/shared/themes/sass/components/SocialBtn.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/packages/web/client/src/shared/themes/sass/components/date-picker.scss" beforeDir="false" afterPath="$PROJECT_DIR$/packages/web/client/src/shared/themes/sass/components/date-picker.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/packages/web/client/src/shared/themes/sass/main.sass" beforeDir="false" afterPath="$PROJECT_DIR$/packages/web/client/src/shared/themes/sass/main.sass" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/packages/web/client/src/shared/themes/sass/views/Auth/Login.scss" beforeDir="false" afterPath="$PROJECT_DIR$/packages/web/client/src/shared/themes/sass/views/Auth/Login.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/packages/web/client/src/shared/themes/sass/views/Auth/OTP.scss" beforeDir="false" afterPath="$PROJECT_DIR$/packages/web/client/src/shared/themes/sass/views/Auth/OTP.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/packages/web/client/src/shared/themes/sass/views/Auth/Register.scss" beforeDir="false" afterPath="$PROJECT_DIR$/packages/web/client/src/shared/themes/sass/views/Auth/Register.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/packages/web/client/src/shared/themes/sass/views/Dashboard/Home.scss" beforeDir="false" afterPath="$PROJECT_DIR$/packages/web/client/src/shared/themes/sass/views/Dashboard/Home.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/packages/web/client/src/store/context/allcontext.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/packages/web/client/src/store/context/allcontext.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/packages/web/client/src/store/context/auth/auth.context.tsx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/packages/web/client/src/store/context/createDefaultProvider.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/packages/web/client/src/store/context/createDefaultProvider.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/packages/web/client/src/store/context/index.ts" beforeDir="false" afterPath="$PROJECT_DIR$/packages/web/client/src/store/context/index.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/packages/web/client/src/views/Auth/pages/Login/index.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/packages/web/client/src/views/Auth/pages/Login/index.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/packages/web/client/src/views/Auth/pages/Register/index.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/packages/web/client/src/views/Auth/pages/Register/index.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/packages/web/client/src/views/Dashboard/components/ResultCard.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/packages/web/client/src/views/Dashboard/components/ResultCard.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/packages/web/client/src/views/Dashboard/pages/Home/index.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/packages/web/client/src/views/Dashboard/pages/Home/index.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/packages/web/common/settings/config.js" beforeDir="false" afterPath="$PROJECT_DIR$/packages/web/common/settings/config.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/packages/web/common/settings/config.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/packages/web/server/.babelrc" beforeDir="false" afterPath="$PROJECT_DIR$/packages/web/server/.babelrc" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/packages/web/server/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/packages/web/server/.gitignore" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/packages/web/server/app/config/db-config.js" beforeDir="false" afterPath="$PROJECT_DIR$/packages/web/server/app/config/db-config.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/packages/web/server/app/config/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/packages/web/server/app/config/index.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/packages/web/server/app/config/param-validation.js" beforeDir="false" afterPath="$PROJECT_DIR$/packages/web/server/app/config/param-validation.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/packages/web/server/app/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/packages/web/server/app/index.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/packages/web/server/app/src/controllers/auth.controller.js" beforeDir="false" afterPath="$PROJECT_DIR$/packages/web/server/app/src/controllers/auth.controller.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/packages/web/server/app/src/controllers/user.controller.js" beforeDir="false" afterPath="$PROJECT_DIR$/packages/web/server/app/src/controllers/user.controller.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/packages/web/server/app/src/database/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/packages/web/server/app/src/database/index.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/packages/web/server/app/src/database/models/task.js" beforeDir="false" afterPath="$PROJECT_DIR$/packages/web/server/app/src/database/models/task.model.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/packages/web/server/app/src/database/models/todo.js" beforeDir="false" afterPath="$PROJECT_DIR$/packages/web/server/app/src/database/models/todo.model.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/packages/web/server/app/src/database/models/user.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/packages/web/server/app/src/database/models/userWallet.js" beforeDir="false" afterPath="$PROJECT_DIR$/packages/web/server/app/src/database/models/userWallet.model.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/packages/web/server/app/src/middleware/authenticate.js" beforeDir="false" afterPath="$PROJECT_DIR$/packages/web/server/app/src/middleware/authenticate.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/packages/web/server/app/src/middleware/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/packages/web/server/app/src/middleware/index.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/packages/web/server/app/src/routes/auth.routes.js" beforeDir="false" afterPath="$PROJECT_DIR$/packages/web/server/app/src/routes/auth.routes.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/packages/web/server/app/src/routes/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/packages/web/server/app/src/routes/index.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/packages/web/server/app/src/routes/user.routes.js" beforeDir="false" afterPath="$PROJECT_DIR$/packages/web/server/app/src/routes/user.routes.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/packages/web/server/app/test/seed/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/packages/web/server/app/test/seed/index.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/packages/web/server/docs/auth.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/packages/web/server/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/packages/web/server/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/yarn-error.log" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/yarn.lock" beforeDir="false" afterPath="$PROJECT_DIR$/yarn.lock" afterDir="false" />
+    </list>
+    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="DefaultGradleProjectSettings">
+    <option name="isMigrated" value="true" />
+  </component>
+  <component name="FileEditorManager">
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/packages/mobile/app/lib/views/set_fingerprint/fingerprint_view.dart">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="85">
+              <caret line="5" column="64" selection-start-line="5" selection-start-column="64" selection-end-line="5" selection-end-column="64" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/packages/mobile/app/lib/repositories/sources/network/base/endpoints.dart">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="187">
+              <caret line="11" selection-start-line="11" selection-end-line="11" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/packages/mobile/app/lib/models/register_response.dart">
+          <provider selected="true" editor-type-id="text-editor" />
+        </entry>
+      </file>
+    </leaf>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+    <option name="RECENT_BRANCH_BY_REPOSITORY">
+      <map>
+        <entry key="$PROJECT_DIR$" value="feature/app-dashboard" />
+      </map>
+    </option>
+  </component>
+  <component name="IdeDocumentHistory">
+    <option name="CHANGED_PATHS">
+      <list>
+        <option value="$PROJECT_DIR$/packages/mobile/app/lib/main.dart" />
+        <option value="$PROJECT_DIR$/packages/mobile/app/test_driver/app_test.dart" />
+        <option value="$PROJECT_DIR$/packages/mobile/app/lib/views/dashboard/dashboard_state.dart" />
+        <option value="$PROJECT_DIR$/packages/mobile/app/lib/views/dashboard/dashboard_view.dart" />
+        <option value="$PROJECT_DIR$/packages/mobile/app/lib/views/set_fingerprint/fingerprint_view.dart" />
+        <option value="$PROJECT_DIR$/packages/mobile/app/lib/repositories/sources/network/base/endpoints.dart" />
+      </list>
+    </option>
+  </component>
+  <component name="ProjectConfigurationFiles">
+    <option name="files">
+      <list>
+        <option value="$PROJECT_DIR$/.idea/pandamedical.iml" />
+        <option value="$PROJECT_DIR$/.idea/modules.xml" />
+        <option value="$PROJECT_DIR$/.idea/vcs.xml" />
+        <option value="$PROJECT_DIR$/.idea/codeStyles/Project.xml" />
+        <option value="$PROJECT_DIR$/.idea/libraries/Dart_Packages.xml" />
+        <option value="$PROJECT_DIR$/.idea/libraries/Dart_SDK.xml" />
+      </list>
+    </option>
+  </component>
+  <component name="ProjectFrameBounds" extendedState="6">
+    <option name="x" value="200" />
+    <option name="y" value="107" />
+    <option name="width" value="1200" />
+    <option name="height" value="646" />
+  </component>
+  <component name="ProjectView">
+    <navigator currentView="ProjectPane" proportions="" version="1">
+      <foldersAlwaysOnTop value="true" />
+    </navigator>
+    <panes>
+      <pane id="Scope" />
+      <pane id="ProjectPane">
+        <subPane>
+          <expand>
+            <path>
+              <item name="pandamedical" type="b2602c69:ProjectViewProjectNode" />
+              <item name="pandamedical" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="pandamedical" type="b2602c69:ProjectViewProjectNode" />
+              <item name="pandamedical" type="462c0819:PsiDirectoryNode" />
+              <item name="packages" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="pandamedical" type="b2602c69:ProjectViewProjectNode" />
+              <item name="pandamedical" type="462c0819:PsiDirectoryNode" />
+              <item name="packages" type="462c0819:PsiDirectoryNode" />
+              <item name="mobile" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="pandamedical" type="b2602c69:ProjectViewProjectNode" />
+              <item name="pandamedical" type="462c0819:PsiDirectoryNode" />
+              <item name="packages" type="462c0819:PsiDirectoryNode" />
+              <item name="mobile" type="462c0819:PsiDirectoryNode" />
+              <item name="app" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="pandamedical" type="b2602c69:ProjectViewProjectNode" />
+              <item name="pandamedical" type="462c0819:PsiDirectoryNode" />
+              <item name="packages" type="462c0819:PsiDirectoryNode" />
+              <item name="mobile" type="462c0819:PsiDirectoryNode" />
+              <item name="app" type="462c0819:PsiDirectoryNode" />
+              <item name="lib" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="pandamedical" type="b2602c69:ProjectViewProjectNode" />
+              <item name="pandamedical" type="462c0819:PsiDirectoryNode" />
+              <item name="packages" type="462c0819:PsiDirectoryNode" />
+              <item name="mobile" type="462c0819:PsiDirectoryNode" />
+              <item name="app" type="462c0819:PsiDirectoryNode" />
+              <item name="lib" type="462c0819:PsiDirectoryNode" />
+              <item name="models" type="462c0819:PsiDirectoryNode" />
+            </path>
+          </expand>
+          <select />
+        </subPane>
+      </pane>
+      <pane id="PackagesPane" />
+    </panes>
+  </component>
+  <component name="PropertiesComponent">
+    <property name="android.project.structure.last.selected" value="SDK Location" />
+    <property name="android.project.structure.proportion" value="0.15" />
+    <property name="android.sdk.path" value="C:/Android/sdk" />
+    <property name="dart.analysis.tool.window.force.activate" value="false" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="settings.editor.selected.configurable" value="AndroidSdkUpdater" />
+    <property name="show.migrate.to.gradle.popup" value="false" />
+  </component>
+  <component name="RunDashboard">
+    <option name="ruleStates">
+      <list>
+        <RuleState>
+          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
+        </RuleState>
+        <RuleState>
+          <option name="name" value="StatusDashboardGroupingRule" />
+        </RuleState>
+      </list>
+    </option>
+  </component>
+  <component name="RunManager">
+    <configuration default="true" type="JUnit" factoryName="JUnit">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
+      <module name="" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="PACKAGE_NAME" />
+      <option name="MAIN_CLASS_NAME" />
+      <option name="METHOD_NAME" />
+      <option name="TEST_OBJECT" value="class" />
+      <option name="VM_PARAMETERS" value="-ea" />
+      <option name="PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="$MODULE_DIR$" />
+      <option name="ENV_VARIABLES" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="TEST_SEARCH_SCOPE">
+        <value defaultName="singleModule" />
+      </option>
+      <envs />
+      <patterns />
+      <method />
+    </configuration>
+    <configuration name="&lt;template&gt;" type="#org.jetbrains.idea.devkit.run.PluginConfigurationType" default="true" selected="false">
+      <option name="VM_PARAMETERS" value="-Xmx512m -Xms256m -XX:MaxPermSize=250m -ea" />
+    </configuration>
+    <configuration default="true" type="Applet">
+      <option name="POLICY_FILE" value="$APPLICATION_HOME_DIR$/bin/appletviewer.policy" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration default="true" type="Application" factoryName="Application">
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration default="true" type="TestNG">
+      <option name="TEST_OBJECT" value="CLASS" />
+      <option name="WORKING_DIRECTORY" value="$MODULE_DIR$" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="ac7825a3-9631-4f63-9605-a5554a614629" name="Default Changelist" comment="" />
+      <created>1602582310909</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1602582310909</updated>
+    </task>
+    <task id="LOCAL-00001" summary="updated fingerprint library, MainActivity">
+      <created>1605523222053</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1605523222053</updated>
+    </task>
+    <task id="LOCAL-00002" summary="updated fingerprint library, MainActivity">
+      <created>1611049088128</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1611049088128</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
+    <servers />
+  </component>
+  <component name="ToolWindowManager">
+    <frame x="-8" y="-8" width="1616" height="876" extended-state="6" />
+    <layout>
+      <window_info id="Captures" order="0" weight="0.25" />
+      <window_info active="true" content_ui="combo" id="Project" order="1" visible="true" weight="0.25449872" />
+      <window_info id="Structure" order="2" side_tool="true" />
+      <window_info id="Image Layers" order="3" />
+      <window_info id="Designer" order="4" />
+      <window_info id="Resources Explorer" order="5" />
+      <window_info id="Capture Tool" order="6" />
+      <window_info id="Favorites" order="7" side_tool="true" />
+      <window_info anchor="bottom" id="Run" order="0" />
+      <window_info anchor="bottom" id="TODO" order="1" />
+      <window_info anchor="bottom" id="Debug" order="2" />
+      <window_info anchor="bottom" id="Terminal" order="3" />
+      <window_info anchor="bottom" id="Event Log" order="4" side_tool="true" />
+      <window_info anchor="bottom" id="Flutter Performance" order="5" side_tool="true" />
+      <window_info anchor="bottom" id="Version Control" order="6" visible="true" weight="0.243607" />
+      <window_info anchor="bottom" id="Dart Analysis" order="7" weight="0.32974428" />
+      <window_info anchor="right" id="Capture Analysis" order="0" />
+      <window_info anchor="right" id="Theme Preview" order="1" />
+      <window_info anchor="right" id="Flutter Inspector" order="2" />
+      <window_info anchor="right" id="Flutter Outline" order="3" />
+      <window_info anchor="right" id="Palette&#9;" order="4" />
+    </layout>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="updated fingerprint library" />
+    <MESSAGE value="updated fingerprint library, MainActivity" />
+    <option name="LAST_COMMIT_MESSAGE" value="updated fingerprint library, MainActivity" />
+  </component>
+  <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/packages/mobile/app/lib/views/set_fingerprint/fingerprint_bloc.dart">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="85">
+          <caret line="10" lean-forward="true" selection-start-line="10" selection-end-line="10" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/packages/mobile/app/lib/main.dart">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="292">
+          <caret line="18" column="38" lean-forward="true" selection-start-line="18" selection-start-column="38" selection-end-line="18" selection-end-column="38" />
+          <folding>
+            <element signature="e#0#39#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/packages/mobile/app/lib/repositories/sources/network/auth.service.dart">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="462">
+          <caret line="86" column="67" selection-start-line="86" selection-start-column="67" selection-end-line="86" selection-end-column="67" />
+          <folding>
+            <element signature="e#0#22#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/packages/mobile/app/lib/views/set_fingerprint/fingerprint_view.dart">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="85">
+          <caret line="5" column="64" selection-start-line="5" selection-start-column="64" selection-end-line="5" selection-end-column="64" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/packages/mobile/app/lib/repositories/sources/network/base/endpoints.dart">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="187">
+          <caret line="11" selection-start-line="11" selection-end-line="11" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/packages/mobile/app/lib/models/register_response.dart">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+  </component>
+</project>

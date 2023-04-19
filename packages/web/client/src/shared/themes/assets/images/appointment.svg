@@ -1,0 +1,11 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="23.895" height="22.964" viewBox="0 0 23.895 22.964">
+  <g id="Atoms_Icons_Date" data-name="Atoms/ Icons/ Date" transform="translate(1 1)">
+    <g id="Date">
+      <rect id="Rectangle" width="21.5" height="5.031" transform="translate(0 2.516)" fill="none" stroke="#cde0c9" stroke-linecap="round" stroke-linejoin="round" stroke-miterlimit="10" stroke-width="2"/>
+      <path id="Path" d="M.479,0V2.516" transform="translate(5.792)" fill="none" stroke="#cde0c9" stroke-linecap="round" stroke-linejoin="round" stroke-miterlimit="10" stroke-width="2"/>
+      <path id="Path-2" data-name="Path" d="M.479,0V2.516" transform="translate(14.75)" fill="none" stroke="#cde0c9" stroke-linecap="round" stroke-linejoin="round" stroke-miterlimit="10" stroke-width="2"/>
+      <path id="Path-3" data-name="Path" d="M21.5,0H0V13.417H17.737l.806-.755A9.222,9.222,0,0,0,21.5,5.954Z" transform="translate(0 7.547)" fill="none" stroke="#cde0c9" stroke-linecap="round" stroke-linejoin="round" stroke-miterlimit="10" stroke-width="2"/>
+      <path id="Path-4" data-name="Path" d="M0,7.547V3.354H0a5.069,5.069,0,0,0,3.583-2.1L4.479,0" transform="translate(17.021 13.417)" fill="none" stroke="#cde0c9" stroke-linecap="round" stroke-linejoin="round" stroke-miterlimit="10" stroke-width="2"/>
+    </g>
+  </g>
+</svg>

@@ -1,0 +1,10 @@
+.DoctorAppointments {
+  &-heading {
+    white-space: nowrap;
+  }
+
+  .SpecialityProfiles-tag {
+    text-transform: capitalize;
+    min-width: 7em;
+  }
+}
